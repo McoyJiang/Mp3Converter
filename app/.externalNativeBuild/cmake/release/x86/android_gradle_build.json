@@ -1,0 +1,168 @@
+
+{
+	"buildFiles" : 
+	[
+		"/Users/ext.danny.jiang/AndroidStudioProjects/Mp3Converter/app/CMakeLists.txt"
+	],
+	"cFileExtensions" : [ "c" ],
+	"cleanCommands" : 
+	[
+		"/Users/ext.danny.jiang/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/ext.danny.jiang/AndroidStudioProjects/Mp3Converter/app/.externalNativeBuild/cmake/release/x86 --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"mp3lame-Release-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "mp3lame",
+			"buildCommand" : "/Users/ext.danny.jiang/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/ext.danny.jiang/AndroidStudioProjects/Mp3Converter/app/.externalNativeBuild/cmake/release/x86 --target mp3lame",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sysroot  -Dmp3lame_EXPORTS -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=15 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/ext.danny.jiang/AndroidStudioProjects/Mp3Converter/app/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "/Users/ext.danny.jiang/AndroidStudioProjects/Mp3Converter/app/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sysroot -Dmp3lame_EXPORTS  -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=15 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/ext.danny.jiang/AndroidStudioProjects/Mp3Converter/app/src/main/cpp/libmp3lame/bitstream.c",
+					"workingDirectory" : "/Users/ext.danny.jiang/AndroidStudioProjects/Mp3Converter/app/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sysroot -Dmp3lame_EXPORTS  -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=15 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/ext.danny.jiang/AndroidStudioProjects/Mp3Converter/app/src/main/cpp/libmp3lame/encoder.c",
+					"workingDirectory" : "/Users/ext.danny.jiang/AndroidStudioProjects/Mp3Converter/app/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sysroot -Dmp3lame_EXPORTS  -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=15 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/ext.danny.jiang/AndroidStudioProjects/Mp3Converter/app/src/main/cpp/libmp3lame/fft.c",
+					"workingDirectory" : "/Users/ext.danny.jiang/AndroidStudioProjects/Mp3Converter/app/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sysroot -Dmp3lame_EXPORTS  -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=15 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/ext.danny.jiang/AndroidStudioProjects/Mp3Converter/app/src/main/cpp/libmp3lame/gain_analysis.c",
+					"workingDirectory" : "/Users/ext.danny.jiang/AndroidStudioProjects/Mp3Converter/app/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sysroot -Dmp3lame_EXPORTS  -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=15 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/ext.danny.jiang/AndroidStudioProjects/Mp3Converter/app/src/main/cpp/libmp3lame/id3tag.c",
+					"workingDirectory" : "/Users/ext.danny.jiang/AndroidStudioProjects/Mp3Converter/app/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sysroot -Dmp3lame_EXPORTS  -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=15 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/ext.danny.jiang/AndroidStudioProjects/Mp3Converter/app/src/main/cpp/libmp3lame/lame.c",
+					"workingDirectory" : "/Users/ext.danny.jiang/AndroidStudioProjects/Mp3Converter/app/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sysroot -Dmp3lame_EXPORTS  -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=15 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/ext.danny.jiang/AndroidStudioProjects/Mp3Converter/app/src/main/cpp/libmp3lame/mpglib_interface.c",
+					"workingDirectory" : "/Users/ext.danny.jiang/AndroidStudioProjects/Mp3Converter/app/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sysroot -Dmp3lame_EXPORTS  -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=15 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/ext.danny.jiang/AndroidStudioProjects/Mp3Converter/app/src/main/cpp/libmp3lame/newmdct.c",
+					"workingDirectory" : "/Users/ext.danny.jiang/AndroidStudioProjects/Mp3Converter/app/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sysroot -Dmp3lame_EXPORTS  -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=15 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/ext.danny.jiang/AndroidStudioProjects/Mp3Converter/app/src/main/cpp/libmp3lame/presets.c",
+					"workingDirectory" : "/Users/ext.danny.jiang/AndroidStudioProjects/Mp3Converter/app/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sysroot -Dmp3lame_EXPORTS  -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=15 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/ext.danny.jiang/AndroidStudioProjects/Mp3Converter/app/src/main/cpp/libmp3lame/psymodel.c",
+					"workingDirectory" : "/Users/ext.danny.jiang/AndroidStudioProjects/Mp3Converter/app/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sysroot -Dmp3lame_EXPORTS  -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=15 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/ext.danny.jiang/AndroidStudioProjects/Mp3Converter/app/src/main/cpp/libmp3lame/quantize.c",
+					"workingDirectory" : "/Users/ext.danny.jiang/AndroidStudioProjects/Mp3Converter/app/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sysroot -Dmp3lame_EXPORTS  -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=15 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/ext.danny.jiang/AndroidStudioProjects/Mp3Converter/app/src/main/cpp/libmp3lame/quantize_pvt.c",
+					"workingDirectory" : "/Users/ext.danny.jiang/AndroidStudioProjects/Mp3Converter/app/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sysroot -Dmp3lame_EXPORTS  -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=15 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/ext.danny.jiang/AndroidStudioProjects/Mp3Converter/app/src/main/cpp/libmp3lame/reservoir.c",
+					"workingDirectory" : "/Users/ext.danny.jiang/AndroidStudioProjects/Mp3Converter/app/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sysroot -Dmp3lame_EXPORTS  -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=15 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/ext.danny.jiang/AndroidStudioProjects/Mp3Converter/app/src/main/cpp/libmp3lame/set_get.c",
+					"workingDirectory" : "/Users/ext.danny.jiang/AndroidStudioProjects/Mp3Converter/app/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sysroot -Dmp3lame_EXPORTS  -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=15 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/ext.danny.jiang/AndroidStudioProjects/Mp3Converter/app/src/main/cpp/libmp3lame/tables.c",
+					"workingDirectory" : "/Users/ext.danny.jiang/AndroidStudioProjects/Mp3Converter/app/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sysroot -Dmp3lame_EXPORTS  -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=15 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/ext.danny.jiang/AndroidStudioProjects/Mp3Converter/app/src/main/cpp/libmp3lame/takehiro.c",
+					"workingDirectory" : "/Users/ext.danny.jiang/AndroidStudioProjects/Mp3Converter/app/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sysroot -Dmp3lame_EXPORTS  -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=15 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/ext.danny.jiang/AndroidStudioProjects/Mp3Converter/app/src/main/cpp/libmp3lame/util.c",
+					"workingDirectory" : "/Users/ext.danny.jiang/AndroidStudioProjects/Mp3Converter/app/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sysroot -Dmp3lame_EXPORTS  -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=15 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/ext.danny.jiang/AndroidStudioProjects/Mp3Converter/app/src/main/cpp/libmp3lame/vbrquantize.c",
+					"workingDirectory" : "/Users/ext.danny.jiang/AndroidStudioProjects/Mp3Converter/app/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sysroot -Dmp3lame_EXPORTS  -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=15 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/ext.danny.jiang/AndroidStudioProjects/Mp3Converter/app/src/main/cpp/libmp3lame/VbrTag.c",
+					"workingDirectory" : "/Users/ext.danny.jiang/AndroidStudioProjects/Mp3Converter/app/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sysroot -Dmp3lame_EXPORTS  -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=15 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/ext.danny.jiang/AndroidStudioProjects/Mp3Converter/app/src/main/cpp/libmp3lame/version.c",
+					"workingDirectory" : "/Users/ext.danny.jiang/AndroidStudioProjects/Mp3Converter/app/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sysroot -Dmp3lame_EXPORTS  -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=15 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/ext.danny.jiang/AndroidStudioProjects/Mp3Converter/app/src/main/cpp/wrapper.c",
+					"workingDirectory" : "/Users/ext.danny.jiang/AndroidStudioProjects/Mp3Converter/app/.externalNativeBuild/cmake/release/x86"
+				}
+			],
+			"output" : "/Users/ext.danny.jiang/AndroidStudioProjects/Mp3Converter/app/build/intermediates/cmake/release/obj/x86/libmp3lame.so",
+			"toolchain" : "10543655411539055017"
+		}
+	},
+	"toolchains" : 
+	{
+		"10543655411539055017" : 
+		{
+			"cCompilerExecutable" : "/Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}
