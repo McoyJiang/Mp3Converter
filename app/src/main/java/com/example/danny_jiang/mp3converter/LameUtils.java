@@ -59,5 +59,12 @@ public class LameUtils {
     public native static int encode(short[] bufferLeft, short[] bufferRight,
                                     int samples, byte[] mp3buf);
 
+    /**
+     * Convert a PCM file into Mp3 file
+     *
+     * @param sourceFile    should be .pcm format
+     * @param targetFile    out put .mp3 format file
+     * @return              if convert successful
+     */
     public native static int encodeFile(String sourceFile, String targetFile);
 }

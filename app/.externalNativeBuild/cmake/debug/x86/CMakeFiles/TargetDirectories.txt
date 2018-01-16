@@ -1,3 +1,3 @@
-/Users/ext.danny.jiang/AndroidStudioProjects/Mp3Converter/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/edit_cache.dir
-/Users/ext.danny.jiang/AndroidStudioProjects/Mp3Converter/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/rebuild_cache.dir
-/Users/ext.danny.jiang/AndroidStudioProjects/Mp3Converter/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/mp3lame.dir
+/Users/ext.danny.jiang/Downloads/work_dir/Mp3Converter/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/edit_cache.dir
+/Users/ext.danny.jiang/Downloads/work_dir/Mp3Converter/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/rebuild_cache.dir
+/Users/ext.danny.jiang/Downloads/work_dir/Mp3Converter/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/mp3lame.dir

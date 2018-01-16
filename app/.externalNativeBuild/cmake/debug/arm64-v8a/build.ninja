@@ -34,7 +34,7 @@ include rules.ninja
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/ext.danny.jiang/AndroidStudioProjects/Mp3Converter/app/.externalNativeBuild/cmake/debug/arm64-v8a && /Users/ext.danny.jiang/Library/Android/sdk/cmake/3.6.4111459/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /Users/ext.danny.jiang/Downloads/work_dir/Mp3Converter/app/.externalNativeBuild/cmake/debug/arm64-v8a && /Users/ext.danny.jiang/Library/Android/sdk/cmake/3.6.4111459/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 build edit_cache: phony CMakeFiles/edit_cache.util
@@ -43,7 +43,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/ext.danny.jiang/AndroidStudioProjects/Mp3Converter/app/.externalNativeBuild/cmake/debug/arm64-v8a && /Users/ext.danny.jiang/Library/Android/sdk/cmake/3.6.4111459/bin/cmake -H/Users/ext.danny.jiang/AndroidStudioProjects/Mp3Converter/app -B/Users/ext.danny.jiang/AndroidStudioProjects/Mp3Converter/app/.externalNativeBuild/cmake/debug/arm64-v8a
+  COMMAND = cd /Users/ext.danny.jiang/Downloads/work_dir/Mp3Converter/app/.externalNativeBuild/cmake/debug/arm64-v8a && /Users/ext.danny.jiang/Library/Android/sdk/cmake/3.6.4111459/bin/cmake -H/Users/ext.danny.jiang/Downloads/work_dir/Mp3Converter/app -B/Users/ext.danny.jiang/Downloads/work_dir/Mp3Converter/app/.externalNativeBuild/cmake/debug/arm64-v8a
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -56,154 +56,154 @@ build CMakeFiles/mp3lame.dir/src/main/cpp/native-lib.cpp.o: CXX_COMPILER__mp3lam
   DEP_FILE = CMakeFiles/mp3lame.dir/src/main/cpp/native-lib.cpp.o.d
   FLAGS = -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
   INCLUDES = -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/include -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
-  IN_ABS = /Users/ext.danny.jiang/AndroidStudioProjects/Mp3Converter/app/src/main/cpp/native-lib.cpp
+  IN_ABS = /Users/ext.danny.jiang/Downloads/work_dir/Mp3Converter/app/src/main/cpp/native-lib.cpp
   OBJECT_DIR = CMakeFiles/mp3lame.dir
   OBJECT_FILE_DIR = CMakeFiles/mp3lame.dir/src/main/cpp
 build CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/bitstream.c.o: C_COMPILER__mp3lame ../../../../src/main/cpp/libmp3lame/bitstream.c
   DEFINES = -Dmp3lame_EXPORTS
   DEP_FILE = CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/bitstream.c.o.d
   FLAGS = -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC
-  IN_ABS = /Users/ext.danny.jiang/AndroidStudioProjects/Mp3Converter/app/src/main/cpp/libmp3lame/bitstream.c
+  IN_ABS = /Users/ext.danny.jiang/Downloads/work_dir/Mp3Converter/app/src/main/cpp/libmp3lame/bitstream.c
   OBJECT_DIR = CMakeFiles/mp3lame.dir
   OBJECT_FILE_DIR = CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame
 build CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/encoder.c.o: C_COMPILER__mp3lame ../../../../src/main/cpp/libmp3lame/encoder.c
   DEFINES = -Dmp3lame_EXPORTS
   DEP_FILE = CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/encoder.c.o.d
   FLAGS = -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC
-  IN_ABS = /Users/ext.danny.jiang/AndroidStudioProjects/Mp3Converter/app/src/main/cpp/libmp3lame/encoder.c
+  IN_ABS = /Users/ext.danny.jiang/Downloads/work_dir/Mp3Converter/app/src/main/cpp/libmp3lame/encoder.c
   OBJECT_DIR = CMakeFiles/mp3lame.dir
   OBJECT_FILE_DIR = CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame
 build CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/fft.c.o: C_COMPILER__mp3lame ../../../../src/main/cpp/libmp3lame/fft.c
   DEFINES = -Dmp3lame_EXPORTS
   DEP_FILE = CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/fft.c.o.d
   FLAGS = -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC
-  IN_ABS = /Users/ext.danny.jiang/AndroidStudioProjects/Mp3Converter/app/src/main/cpp/libmp3lame/fft.c
+  IN_ABS = /Users/ext.danny.jiang/Downloads/work_dir/Mp3Converter/app/src/main/cpp/libmp3lame/fft.c
   OBJECT_DIR = CMakeFiles/mp3lame.dir
   OBJECT_FILE_DIR = CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame
 build CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/gain_analysis.c.o: C_COMPILER__mp3lame ../../../../src/main/cpp/libmp3lame/gain_analysis.c
   DEFINES = -Dmp3lame_EXPORTS
   DEP_FILE = CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/gain_analysis.c.o.d
   FLAGS = -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC
-  IN_ABS = /Users/ext.danny.jiang/AndroidStudioProjects/Mp3Converter/app/src/main/cpp/libmp3lame/gain_analysis.c
+  IN_ABS = /Users/ext.danny.jiang/Downloads/work_dir/Mp3Converter/app/src/main/cpp/libmp3lame/gain_analysis.c
   OBJECT_DIR = CMakeFiles/mp3lame.dir
   OBJECT_FILE_DIR = CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame
 build CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/id3tag.c.o: C_COMPILER__mp3lame ../../../../src/main/cpp/libmp3lame/id3tag.c
   DEFINES = -Dmp3lame_EXPORTS
   DEP_FILE = CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/id3tag.c.o.d
   FLAGS = -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC
-  IN_ABS = /Users/ext.danny.jiang/AndroidStudioProjects/Mp3Converter/app/src/main/cpp/libmp3lame/id3tag.c
+  IN_ABS = /Users/ext.danny.jiang/Downloads/work_dir/Mp3Converter/app/src/main/cpp/libmp3lame/id3tag.c
   OBJECT_DIR = CMakeFiles/mp3lame.dir
   OBJECT_FILE_DIR = CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame
 build CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/lame.c.o: C_COMPILER__mp3lame ../../../../src/main/cpp/libmp3lame/lame.c
   DEFINES = -Dmp3lame_EXPORTS
   DEP_FILE = CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/lame.c.o.d
   FLAGS = -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC
-  IN_ABS = /Users/ext.danny.jiang/AndroidStudioProjects/Mp3Converter/app/src/main/cpp/libmp3lame/lame.c
+  IN_ABS = /Users/ext.danny.jiang/Downloads/work_dir/Mp3Converter/app/src/main/cpp/libmp3lame/lame.c
   OBJECT_DIR = CMakeFiles/mp3lame.dir
   OBJECT_FILE_DIR = CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame
 build CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/mpglib_interface.c.o: C_COMPILER__mp3lame ../../../../src/main/cpp/libmp3lame/mpglib_interface.c
   DEFINES = -Dmp3lame_EXPORTS
   DEP_FILE = CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/mpglib_interface.c.o.d
   FLAGS = -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC
-  IN_ABS = /Users/ext.danny.jiang/AndroidStudioProjects/Mp3Converter/app/src/main/cpp/libmp3lame/mpglib_interface.c
+  IN_ABS = /Users/ext.danny.jiang/Downloads/work_dir/Mp3Converter/app/src/main/cpp/libmp3lame/mpglib_interface.c
   OBJECT_DIR = CMakeFiles/mp3lame.dir
   OBJECT_FILE_DIR = CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame
 build CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/newmdct.c.o: C_COMPILER__mp3lame ../../../../src/main/cpp/libmp3lame/newmdct.c
   DEFINES = -Dmp3lame_EXPORTS
   DEP_FILE = CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/newmdct.c.o.d
   FLAGS = -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC
-  IN_ABS = /Users/ext.danny.jiang/AndroidStudioProjects/Mp3Converter/app/src/main/cpp/libmp3lame/newmdct.c
+  IN_ABS = /Users/ext.danny.jiang/Downloads/work_dir/Mp3Converter/app/src/main/cpp/libmp3lame/newmdct.c
   OBJECT_DIR = CMakeFiles/mp3lame.dir
   OBJECT_FILE_DIR = CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame
 build CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/presets.c.o: C_COMPILER__mp3lame ../../../../src/main/cpp/libmp3lame/presets.c
   DEFINES = -Dmp3lame_EXPORTS
   DEP_FILE = CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/presets.c.o.d
   FLAGS = -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC
-  IN_ABS = /Users/ext.danny.jiang/AndroidStudioProjects/Mp3Converter/app/src/main/cpp/libmp3lame/presets.c
+  IN_ABS = /Users/ext.danny.jiang/Downloads/work_dir/Mp3Converter/app/src/main/cpp/libmp3lame/presets.c
   OBJECT_DIR = CMakeFiles/mp3lame.dir
   OBJECT_FILE_DIR = CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame
 build CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/psymodel.c.o: C_COMPILER__mp3lame ../../../../src/main/cpp/libmp3lame/psymodel.c
   DEFINES = -Dmp3lame_EXPORTS
   DEP_FILE = CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/psymodel.c.o.d
   FLAGS = -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC
-  IN_ABS = /Users/ext.danny.jiang/AndroidStudioProjects/Mp3Converter/app/src/main/cpp/libmp3lame/psymodel.c
+  IN_ABS = /Users/ext.danny.jiang/Downloads/work_dir/Mp3Converter/app/src/main/cpp/libmp3lame/psymodel.c
   OBJECT_DIR = CMakeFiles/mp3lame.dir
   OBJECT_FILE_DIR = CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame
 build CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/quantize.c.o: C_COMPILER__mp3lame ../../../../src/main/cpp/libmp3lame/quantize.c
   DEFINES = -Dmp3lame_EXPORTS
   DEP_FILE = CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/quantize.c.o.d
   FLAGS = -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC
-  IN_ABS = /Users/ext.danny.jiang/AndroidStudioProjects/Mp3Converter/app/src/main/cpp/libmp3lame/quantize.c
+  IN_ABS = /Users/ext.danny.jiang/Downloads/work_dir/Mp3Converter/app/src/main/cpp/libmp3lame/quantize.c
   OBJECT_DIR = CMakeFiles/mp3lame.dir
   OBJECT_FILE_DIR = CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame
 build CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/quantize_pvt.c.o: C_COMPILER__mp3lame ../../../../src/main/cpp/libmp3lame/quantize_pvt.c
   DEFINES = -Dmp3lame_EXPORTS
   DEP_FILE = CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/quantize_pvt.c.o.d
   FLAGS = -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC
-  IN_ABS = /Users/ext.danny.jiang/AndroidStudioProjects/Mp3Converter/app/src/main/cpp/libmp3lame/quantize_pvt.c
+  IN_ABS = /Users/ext.danny.jiang/Downloads/work_dir/Mp3Converter/app/src/main/cpp/libmp3lame/quantize_pvt.c
   OBJECT_DIR = CMakeFiles/mp3lame.dir
   OBJECT_FILE_DIR = CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame
 build CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/reservoir.c.o: C_COMPILER__mp3lame ../../../../src/main/cpp/libmp3lame/reservoir.c
   DEFINES = -Dmp3lame_EXPORTS
   DEP_FILE = CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/reservoir.c.o.d
   FLAGS = -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC
-  IN_ABS = /Users/ext.danny.jiang/AndroidStudioProjects/Mp3Converter/app/src/main/cpp/libmp3lame/reservoir.c
+  IN_ABS = /Users/ext.danny.jiang/Downloads/work_dir/Mp3Converter/app/src/main/cpp/libmp3lame/reservoir.c
   OBJECT_DIR = CMakeFiles/mp3lame.dir
   OBJECT_FILE_DIR = CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame
 build CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/set_get.c.o: C_COMPILER__mp3lame ../../../../src/main/cpp/libmp3lame/set_get.c
   DEFINES = -Dmp3lame_EXPORTS
   DEP_FILE = CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/set_get.c.o.d
   FLAGS = -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC
-  IN_ABS = /Users/ext.danny.jiang/AndroidStudioProjects/Mp3Converter/app/src/main/cpp/libmp3lame/set_get.c
+  IN_ABS = /Users/ext.danny.jiang/Downloads/work_dir/Mp3Converter/app/src/main/cpp/libmp3lame/set_get.c
   OBJECT_DIR = CMakeFiles/mp3lame.dir
   OBJECT_FILE_DIR = CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame
 build CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/tables.c.o: C_COMPILER__mp3lame ../../../../src/main/cpp/libmp3lame/tables.c
   DEFINES = -Dmp3lame_EXPORTS
   DEP_FILE = CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/tables.c.o.d
   FLAGS = -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC
-  IN_ABS = /Users/ext.danny.jiang/AndroidStudioProjects/Mp3Converter/app/src/main/cpp/libmp3lame/tables.c
+  IN_ABS = /Users/ext.danny.jiang/Downloads/work_dir/Mp3Converter/app/src/main/cpp/libmp3lame/tables.c
   OBJECT_DIR = CMakeFiles/mp3lame.dir
   OBJECT_FILE_DIR = CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame
 build CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/takehiro.c.o: C_COMPILER__mp3lame ../../../../src/main/cpp/libmp3lame/takehiro.c
   DEFINES = -Dmp3lame_EXPORTS
   DEP_FILE = CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/takehiro.c.o.d
   FLAGS = -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC
-  IN_ABS = /Users/ext.danny.jiang/AndroidStudioProjects/Mp3Converter/app/src/main/cpp/libmp3lame/takehiro.c
+  IN_ABS = /Users/ext.danny.jiang/Downloads/work_dir/Mp3Converter/app/src/main/cpp/libmp3lame/takehiro.c
   OBJECT_DIR = CMakeFiles/mp3lame.dir
   OBJECT_FILE_DIR = CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame
 build CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/util.c.o: C_COMPILER__mp3lame ../../../../src/main/cpp/libmp3lame/util.c
   DEFINES = -Dmp3lame_EXPORTS
   DEP_FILE = CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/util.c.o.d
   FLAGS = -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC
-  IN_ABS = /Users/ext.danny.jiang/AndroidStudioProjects/Mp3Converter/app/src/main/cpp/libmp3lame/util.c
+  IN_ABS = /Users/ext.danny.jiang/Downloads/work_dir/Mp3Converter/app/src/main/cpp/libmp3lame/util.c
   OBJECT_DIR = CMakeFiles/mp3lame.dir
   OBJECT_FILE_DIR = CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame
 build CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/vbrquantize.c.o: C_COMPILER__mp3lame ../../../../src/main/cpp/libmp3lame/vbrquantize.c
   DEFINES = -Dmp3lame_EXPORTS
   DEP_FILE = CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/vbrquantize.c.o.d
   FLAGS = -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC
-  IN_ABS = /Users/ext.danny.jiang/AndroidStudioProjects/Mp3Converter/app/src/main/cpp/libmp3lame/vbrquantize.c
+  IN_ABS = /Users/ext.danny.jiang/Downloads/work_dir/Mp3Converter/app/src/main/cpp/libmp3lame/vbrquantize.c
   OBJECT_DIR = CMakeFiles/mp3lame.dir
   OBJECT_FILE_DIR = CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame
 build CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/VbrTag.c.o: C_COMPILER__mp3lame ../../../../src/main/cpp/libmp3lame/VbrTag.c
   DEFINES = -Dmp3lame_EXPORTS
   DEP_FILE = CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/VbrTag.c.o.d
   FLAGS = -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC
-  IN_ABS = /Users/ext.danny.jiang/AndroidStudioProjects/Mp3Converter/app/src/main/cpp/libmp3lame/VbrTag.c
+  IN_ABS = /Users/ext.danny.jiang/Downloads/work_dir/Mp3Converter/app/src/main/cpp/libmp3lame/VbrTag.c
   OBJECT_DIR = CMakeFiles/mp3lame.dir
   OBJECT_FILE_DIR = CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame
 build CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/version.c.o: C_COMPILER__mp3lame ../../../../src/main/cpp/libmp3lame/version.c
   DEFINES = -Dmp3lame_EXPORTS
   DEP_FILE = CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/version.c.o.d
   FLAGS = -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC
-  IN_ABS = /Users/ext.danny.jiang/AndroidStudioProjects/Mp3Converter/app/src/main/cpp/libmp3lame/version.c
+  IN_ABS = /Users/ext.danny.jiang/Downloads/work_dir/Mp3Converter/app/src/main/cpp/libmp3lame/version.c
   OBJECT_DIR = CMakeFiles/mp3lame.dir
   OBJECT_FILE_DIR = CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame
 build CMakeFiles/mp3lame.dir/src/main/cpp/wrapper.c.o: C_COMPILER__mp3lame ../../../../src/main/cpp/wrapper.c
   DEFINES = -Dmp3lame_EXPORTS
   DEP_FILE = CMakeFiles/mp3lame.dir/src/main/cpp/wrapper.c.o.d
   FLAGS = -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC
-  IN_ABS = /Users/ext.danny.jiang/AndroidStudioProjects/Mp3Converter/app/src/main/cpp/wrapper.c
+  IN_ABS = /Users/ext.danny.jiang/Downloads/work_dir/Mp3Converter/app/src/main/cpp/wrapper.c
   OBJECT_DIR = CMakeFiles/mp3lame.dir
   OBJECT_FILE_DIR = CMakeFiles/mp3lame.dir/src/main/cpp
 

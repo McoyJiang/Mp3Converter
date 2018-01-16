@@ -49,8 +49,7 @@ void Java_com_example_danny_1jiang_mp3converter_LameUtils_init
        	LOGD("Init returned: %d", res);
 }
 
-/**
-jint Java_com_example_extdannyjiang_mp3compiler_utils_LameUtils_encode
+jint Java_com_example_danny_1jiang_mp3converter_LameUtils_encode
   (JNIEnv *env, jclass jc, jshortArray buffer_left, jshortArray buffer_right,
   jint in_sample_rate, jbyteArray mp3_buffer) {
 
@@ -58,7 +57,7 @@ jint Java_com_example_extdannyjiang_mp3compiler_utils_LameUtils_encode
 
     lame_encode_buffer(lame, buffer_left, buffer_right, in_sample_rate, mp3_buffer,
       				BUFFER_SIZE);
-}*/
+}
 
 jint Java_com_example_danny_1jiang_mp3converter_LameUtils_encodeFile(JNIEnv *env,
 		jobject jobj, jstring in_source_path, jstring in_target_path) {
