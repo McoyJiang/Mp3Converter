@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f88e1791-c558-4f5e-9517-5d7bcba08371" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,8 +33,8 @@
       <file leaf-file-name="LameUtils.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/danny_jiang/mp3converter/LameUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="438">
-              <caret line="64" column="5" lean-forward="false" selection-start-line="64" selection-start-column="5" selection-end-line="66" selection-end-column="49" />
+            <state relative-caret-position="526">
+              <caret line="68" column="4" lean-forward="false" selection-start-line="68" selection-start-column="4" selection-end-line="68" selection-end-column="78" />
               <folding />
             </state>
           </provider>
@@ -42,8 +43,8 @@
       <file leaf-file-name="wrapper.c" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/cpp/wrapper.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="59" column="1" lean-forward="true" selection-start-line="59" selection-start-column="1" selection-end-line="59" selection-end-column="1" />
+            <state relative-caret-position="345">
+              <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="62" selection-end-column="71" />
               <folding />
             </state>
           </provider>
@@ -53,8 +54,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="641">
-                <caret line="38" column="51" lean-forward="false" selection-start-line="38" selection-start-column="51" selection-end-line="38" selection-end-column="51" />
+              <first_editor relative-caret-position="289">
+                <caret line="47" column="33" lean-forward="true" selection-start-line="47" selection-start-column="33" selection-end-line="47" selection-end-column="33" />
                 <folding />
               </first_editor>
               <second_editor>
@@ -2299,14 +2300,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/cpp/wrapper.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="59" column="1" lean-forward="true" selection-start-line="59" selection-start-column="1" selection-end-line="59" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/danny_jiang/mp3converter/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
@@ -2317,8 +2310,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/danny_jiang/mp3converter/LameUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="64" column="5" lean-forward="false" selection-start-line="64" selection-start-column="5" selection-end-line="66" selection-end-column="49" />
+        <state relative-caret-position="526">
+          <caret line="68" column="4" lean-forward="false" selection-start-line="68" selection-start-column="4" selection-end-line="68" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/cpp/wrapper.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="62" selection-end-column="71" />
           <folding />
         </state>
       </provider>
@@ -2326,8 +2327,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="641">
-            <caret line="38" column="51" lean-forward="false" selection-start-line="38" selection-start-column="51" selection-end-line="38" selection-end-column="51" />
+          <first_editor relative-caret-position="289">
+            <caret line="47" column="33" lean-forward="true" selection-start-line="47" selection-start-column="33" selection-end-line="47" selection-end-column="33" />
             <folding />
           </first_editor>
           <second_editor>

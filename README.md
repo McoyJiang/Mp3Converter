@@ -31,9 +31,33 @@ this method takes 5 params, follow are the instructions:
      *            2 near-best quality, not too slow<br />
      *            5 good quality, fast<br />
      *            7 ok quality, really fast
+     public native static int encode(short[] bufferLeft, short[] bufferRight,
+                                         int samples, byte[] mp3buf);
 
 `encodeFile`
 this method takes 2 params
 
     * @param sourceFile    should be .pcm format
     * @param targetFile    out put .mp3 format file
+    public native static int encodeFile(String sourceFile, String targetFile);
+
+both of these two methods are <font color='#FF0000'><b>native</b></font> method,
+so the real implementation is in `wrapper.c`
+
+<br>
+according to the JNI criteria, their declaration should be like this:
+
+```
+void Java_com_example_danny_1jiang_mp3converter_LameUtils_init
+       (JNIEnv *env, jclass jc, jint in_num_channels, jint in_sample_rate,
+       jint out_sample_rate, jint in_brate, jint in_quality){
+    ...
+}
+```
+and
+```
+jint Java_com_example_danny_1jiang_mp3converter_LameUtils_encodeFile(JNIEnv *env,
+		jobject jobj, jstring in_source_path, jstring in_target_path) {
+	...
+}
+```
