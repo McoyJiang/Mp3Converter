@@ -5,62 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f88e1791-c558-4f5e-9517-5d7bcba08371" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/VbrTag.c.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/bitstream.c.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/encoder.c.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/fft.c.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/gain_analysis.c.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/id3tag.c.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/lame.c.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/mpglib_interface.c.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/newmdct.c.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/presets.c.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/psymodel.c.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/quantize.c.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/quantize_pvt.c.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/reservoir.c.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/set_get.c.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/tables.c.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/takehiro.c.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/util.c.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/vbrquantize.c.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/version.c.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/mp3lame.dir/src/main/cpp/native-lib.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/mp3lame.dir/src/main/cpp/wrapper.c.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-01-16-14-56-30-518.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-01-16-14-56-30-518.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-01-16-14-56-42-653.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-01-16-14-56-42-653.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-01-16-15-03-01-197.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-01-16-15-03-01-197.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-01-16-15-35-19-661.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-01-16-15-35-19-661.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-01-16-15-35-25-669.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-01-16-15-35-25-669.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-01-16-15-39-08-818.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-01-16-15-39-08-818.rawproto" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/danny_jiang/mp3converter/Constant.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/danny_jiang/mp3converter/utils/Constant.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/danny_jiang/mp3converter/LameUtils.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/danny_jiang/mp3converter/utils/LameUtils.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/resourceHashesCache.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/resourceHashesCache.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/classAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/classAnalysis.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/jarAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/jarAnalysis.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/javaCompile.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/javaCompile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/taskHistory.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/taskJars.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/taskJars.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/x86/.ninja_deps" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/x86/.ninja_deps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/x86/.ninja_log" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/x86/.ninja_log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/cpp/native-lib.cpp" afterPath="$PROJECT_DIR$/app/src/main/cpp/native-lib.cpp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/cpp/wrapper.c" afterPath="$PROJECT_DIR$/app/src/main/cpp/wrapper.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/danny_jiang/mp3converter/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/danny_jiang/mp3converter/MainActivity.java" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -94,11 +39,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LameUtils.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="LameUtils.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/danny_jiang/mp3converter/utils/LameUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="658">
-              <caret line="93" column="38" lean-forward="false" selection-start-line="93" selection-start-column="38" selection-end-line="93" selection-end-column="38" />
+            <state relative-caret-position="2046">
+              <caret line="93" column="33" lean-forward="true" selection-start-line="93" selection-start-column="33" selection-end-line="93" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -107,8 +52,8 @@
       <file leaf-file-name="wrapper.c" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/cpp/wrapper.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+            <state relative-caret-position="438">
+              <caret line="129" column="25" lean-forward="false" selection-start-line="129" selection-start-column="25" selection-end-line="129" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -124,7 +69,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Mp3Recorder.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Mp3Recorder.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/danny_jiang/mp3converter/utils/Mp3Recorder.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="279">
@@ -201,8 +146,8 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>stringFromJNI</find>
-      <find>mp3converter_</find>
       <find>getShort</find>
+      <find>mp3converter_</find>
     </findStrings>
     <replaceStrings>
       <replace>Log</replace>
@@ -1971,11 +1916,11 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/danny_jiang/mp3converter/utils/Constant.java" />
         <option value="$PROJECT_DIR$/app/src/main/cpp/native-lib.cpp" />
-        <option value="$PROJECT_DIR$/app/src/main/cpp/wrapper.c" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/danny_jiang/mp3converter/utils/PCMFormat.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/danny_jiang/mp3converter/utils/DataEncodeThread.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/danny_jiang/mp3converter/utils/LameUtils.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/danny_jiang/mp3converter/utils/Mp3Recorder.java" />
+        <option value="$PROJECT_DIR$/app/src/main/cpp/wrapper.c" />
       </list>
     </option>
   </component>
@@ -2747,14 +2692,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/cpp/wrapper.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/danny_jiang/mp3converter/utils/PCMFormat.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
@@ -2775,14 +2712,6 @@
           <folding>
             <element signature="e#0#16#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/danny_jiang/mp3converter/utils/LameUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="658">
-          <caret line="93" column="38" lean-forward="false" selection-start-line="93" selection-start-column="38" selection-end-line="93" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2821,6 +2750,22 @@
             <element signature="e#4566#4567#0" expanded="true" />
             <element signature="e#4601#4602#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/cpp/wrapper.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="129" column="25" lean-forward="false" selection-start-line="129" selection-start-column="25" selection-end-line="129" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/danny_jiang/mp3converter/utils/LameUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2046">
+          <caret line="93" column="33" lean-forward="true" selection-start-line="93" selection-start-column="33" selection-end-line="93" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>

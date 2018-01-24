@@ -114,3 +114,21 @@ jint Java_com_example_danny_1jiang_mp3converter_utils_LameUtils_encodeFile(JNIEn
 
     return 0;
 }
+
+JNIEXPORT jint JNICALL Java_com_example_danny_1jiang_mp3converter_utils_LameUtils_flush(
+        JNIEnv *env, jclass cls, jbyteArray mp3buf) {
+    const jsize mp3buf_size = (*env)->GetArrayLength(env, mp3buf);
+    jbyte* j_mp3buf = (*env)->GetByteArrayElements(env, mp3buf, NULL);
+
+    int result = lame_encode_flush(lame, j_mp3buf, mp3buf_size);
+
+    (*env)->ReleaseByteArrayElements(env, mp3buf, j_mp3buf, 0);
+
+    return result;
+}
+
+JNIEXPORT void JNICALL Java_com_example_danny_1jiang_mp3converter_utils_LameUtils_close
+        (JNIEnv *env, jclass cls) {
+    lame_close(lame);
+    lame = NULL;
+}
