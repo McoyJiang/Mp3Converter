@@ -1,7 +1,7 @@
 # Mp3Converter
 this is a library which can convert PCM or WAV source into Mp3 without lossy
 
-## Mp3 Compiler
+## Mp3 Encoder
 Mp3Converter uses [LameMp3](http://lame.sourceforge.net/) library which is a high quality MPEG Audio Layer III (MP3) encoder licensed under the LGP
 <br>
 
@@ -62,4 +62,24 @@ jint Java_com_example_danny_1jiang_mp3converter_LameUtils_encodeFile(JNIEnv *env
 }
 ```
 
-## Recorder
+## Recorder: Mp3Recorder.java
+Mp3Recorder is a encapsulated Android AudioRecorder. you can just call start() method to start an
+audio recording, and call stop() method to stop it.
+
+#### Use
+1. declare and initialize a instance of Mp3Recorder
+```
+Mp3Recorder mRecorder = new Mp3Recorder(new File(Environment.getExternalStorageDirectory(),"test.mp3"));
+```
+
+as you can see in Mp3Recorder.java, i use default params for sample_rate and bit_rate
+
+2. call Mp3Recorder.start() method to start the audio recording
+```
+try {
+    mRecorder.start();
+} catch (IOException e) {
+    e.printStackTrace();
+}
+```
+

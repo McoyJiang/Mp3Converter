@@ -27,26 +27,31 @@ int read_samples(FILE *input_file, short *input) {
 void Java_com_example_danny_1jiang_mp3converter_utils_LameUtils_init
        (JNIEnv *env, jclass jc, jint in_num_channels, jint in_sample_rate,
        jint out_sample_rate, jint in_brate, jint in_quality){
-       lame = lame_init();
+    lame = lame_init();
 
-       	LOGD("Init parameters:");
-       	lame_set_num_channels(lame, in_num_channels);
-       	LOGD("Number of channels: %d", in_num_channels);
+    LOGD("Init parameters:");
+    lame_set_num_channels(lame, in_num_channels);
+    LOGD("Number of channels: %d", in_num_channels);
 
-       	lame_set_in_samplerate(lame, in_sample_rate);
-       	LOGD("in sample rate: %d", in_sample_rate);
+    lame_set_in_samplerate(lame, in_sample_rate);
+    LOGD("in sample rate: %d", in_sample_rate);
 
-       	lame_set_out_samplerate(lame, out_sample_rate);
-        LOGD("out sample rate: %d", out_sample_rate);
+    lame_set_out_samplerate(lame, out_sample_rate);
+    LOGD("out sample rate: %d", out_sample_rate);
 
-       	lame_set_brate(lame, in_brate);
-       	LOGD("Bitrate: %d", in_brate);
+    lame_set_brate(lame, in_brate);
+    LOGD("Bitrate: %d", in_brate);
 
-       	lame_set_quality(lame, in_quality);
-       	LOGD("Quality: %d", in_quality);
+    lame_set_quality(lame, in_quality);
+    LOGD("Quality: %d", in_quality);
 
-       	int res = lame_init_params(lame);
-       	LOGD("Init returned: %d", res);
+    lame_set_scale_left(lame, 10.5f);
+    lame_set_scale_right(lame, 10.5f);
+    LOGD("Scale: %d", 10.5f);
+    lame_set_VBR_quality(lame, 2);
+
+    int res = lame_init_params(lame);
+    LOGD("Init returned: %d", res);
 }
 
 jint Java_com_example_danny_1jiang_mp3converter_utils_LameUtils_encode
