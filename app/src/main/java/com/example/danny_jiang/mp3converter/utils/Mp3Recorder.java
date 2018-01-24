@@ -177,7 +177,7 @@ public class Mp3Recorder {
 		 * The bit rate is 32kbps
 		 *
 		 */
-        LameUtils.init(DEFAULT_SAMPLING_RATE, DEFAULT_LAME_IN_CHANNEL, DEFAULT_SAMPLING_RATE, DEFAULT_LAME_MP3_BIT_RATE, DEFAULT_LAME_MP3_QUALITY);
+        LameUtils.init(DEFAULT_LAME_IN_CHANNEL, DEFAULT_SAMPLING_RATE, DEFAULT_SAMPLING_RATE, DEFAULT_LAME_MP3_BIT_RATE, DEFAULT_LAME_MP3_QUALITY);
         // Create and run thread used to encode data
         // The thread will
         mEncodeThread = new DataEncodeThread(mRecordFile, mBufferSize);

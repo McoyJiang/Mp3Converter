@@ -1,29 +1,47 @@
 package com.example.danny_jiang.mp3converter;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.os.Environment;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
-import android.widget.TextView;
+import android.widget.Button;
 
-import com.example.danny_jiang.mp3converter.utils.Constant;
-import com.example.danny_jiang.mp3converter.utils.LameUtils;
+import com.example.danny_jiang.mp3converter.utils.Mp3Recorder;
+
+import java.io.File;
+import java.io.IOException;
 
 public class MainActivity extends AppCompatActivity {
 
+    private Mp3Recorder mRecorder = new Mp3Recorder(new File(Environment.getExternalStorageDirectory(),"test.mp3"));
+
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-        // Example of a call to a native method
-        TextView tv = (TextView) findViewById(R.id.sample_text);
-        tv.setText(LameUtils.stringFromJNI());
+        Button startButton = (Button) findViewById(R.id.StartButton);
+        startButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                try {
+                    mRecorder.start();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+        });
+        Button stopButton = (Button) findViewById(R.id.StopButton);
+        stopButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mRecorder.stop();
+            }
+        });
     }
 
-    public void init(View view) {
-        LameUtils.init(Constant.LameBehaviorChannelNumber, Constant.RecordSampleRate,
-                Constant.BehaviorSampleRate, Constant.LameBehaviorBitRate, Constant.LameMp3Quality);
-
-        //LameUtils.encodeFile(firstDecodedPcm, transformMusicUrl);
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        mRecorder.stop();
     }
 }
