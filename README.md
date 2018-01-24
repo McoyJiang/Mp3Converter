@@ -1,13 +1,13 @@
 # Mp3Converter
 this is a library which can convert PCM or WAV source into Mp3 without lossy
 
-## Introduction
+## Mp3 Compiler
 Mp3Converter uses [LameMp3](http://lame.sourceforge.net/) library which is a high quality MPEG Audio Layer III (MP3) encoder licensed under the LGP
 <br>
 
 On Samsung's official website, there is a [lamemp3 post](http://developer.samsung.com/technical-doc/view.do?v=T000000090) describes how to integrate it and use it
 
-## Details
+### Details
 Java Layer:
 there is a <font color='#FF0000' size='5'>LameUtils.java</font> which you can use to call functions implemented in C++ layer.
 <br>
