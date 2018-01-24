@@ -9,7 +9,7 @@ On Samsung's official website, there is a [lamemp3 post](http://developer.samsun
 
 ## Details
 Java Layer:
-there is a LameUtils.java which you can use to call functions implemented in C++ layer.
+there is a <font color='#FF0000' size='5'>LameUtils.java</font> which you can use to call functions implemented in C++ layer.
 <br>
 there are two main methods in this class
 <br>
@@ -42,7 +42,7 @@ this method takes 2 params
     public native static int encodeFile(String sourceFile, String targetFile);
 
 both of these two methods are <font color='#FF0000'><b>native</b></font> method,
-so the real implementation is in `wrapper.c`
+so the real implementation is in <font size='6'>`wrapper.c`</font>
 
 <br>
 according to the JNI criteria, their declaration should be like this:
