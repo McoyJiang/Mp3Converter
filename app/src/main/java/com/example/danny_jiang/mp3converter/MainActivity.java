@@ -5,6 +5,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
+import com.example.danny_jiang.mp3converter.utils.Constant;
+import com.example.danny_jiang.mp3converter.utils.LameUtils;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override

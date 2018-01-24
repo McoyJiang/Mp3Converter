@@ -24,7 +24,7 @@ int read_samples(FILE *input_file, short *input) {
 	return nb_read;
 }
 
-void Java_com_example_danny_1jiang_mp3converter_LameUtils_init
+void Java_com_example_danny_1jiang_mp3converter_utils_LameUtils_init
        (JNIEnv *env, jclass jc, jint in_num_channels, jint in_sample_rate,
        jint out_sample_rate, jint in_brate, jint in_quality){
        lame = lame_init();
@@ -49,17 +49,33 @@ void Java_com_example_danny_1jiang_mp3converter_LameUtils_init
        	LOGD("Init returned: %d", res);
 }
 
-jint Java_com_example_danny_1jiang_mp3converter_LameUtils_encode
+jint Java_com_example_danny_1jiang_mp3converter_utils_LameUtils_encode
   (JNIEnv *env, jclass jc, jshortArray buffer_left, jshortArray buffer_right,
   jint in_sample_rate, jbyteArray mp3_buffer) {
 
     LOGD("lame encoding started");
 
-    lame_encode_buffer(lame, buffer_left, buffer_right, in_sample_rate, mp3_buffer,
-      				BUFFER_SIZE);
+    //lame_encode_buffer(lame, buffer_left, buffer_right, in_sample_rate, mp3_buffer,
+    //  				BUFFER_SIZE);
+
+    jshort* j_buffer_l = (*env)->GetShortArrayElements(env, buffer_left, NULL);
+
+    jshort* j_buffer_r = (*env)->GetShortArrayElements(env, buffer_right, NULL);
+
+    const jsize mp3buf_size = (*env)->GetArrayLength(env, mp3_buffer);
+    jbyte* j_mp3buf = (*env)->GetByteArrayElements(env, mp3_buffer, NULL);
+
+    int result = lame_encode_buffer(lame, j_buffer_l, j_buffer_r,
+                                    in_sample_rate, j_mp3buf, mp3buf_size);
+
+    (*env)->ReleaseShortArrayElements(env, buffer_left, j_buffer_l, 0);
+    (*env)->ReleaseShortArrayElements(env, buffer_right, j_buffer_r, 0);
+    (*env)->ReleaseByteArrayElements(env, mp3_buffer, j_mp3buf, 0);
+
+    return result;
 }
 
-jint Java_com_example_danny_1jiang_mp3converter_LameUtils_encodeFile(JNIEnv *env,
+jint Java_com_example_danny_1jiang_mp3converter_utils_LameUtils_encodeFile(JNIEnv *env,
 		jobject jobj, jstring in_source_path, jstring in_target_path) {
 	const char *source_path, *target_path;
 	source_path = (*env)->GetStringUTFChars(env, in_source_path, NULL);

@@ -61,3 +61,5 @@ jint Java_com_example_danny_1jiang_mp3converter_LameUtils_encodeFile(JNIEnv *env
 	...
 }
 ```
+
+## Recorder

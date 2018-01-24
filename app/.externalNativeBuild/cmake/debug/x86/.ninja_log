@@ -22,3 +22,5 @@
 427	716	0	CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/set_get.c.o	e1f1fadcd3c8eb0d
 1	763	0	CMakeFiles/mp3lame.dir/src/main/cpp/native-lib.cpp.o	1e9272ce47376a18
 763	862	0	../../../../build/intermediates/cmake/debug/obj/x86/libmp3lame.so	6e1f94648bd7d0a1
+5	57	0	CMakeFiles/mp3lame.dir/src/main/cpp/wrapper.c.o	2180b52f8dca880
+57	185	0	../../../../build/intermediates/cmake/debug/obj/x86/libmp3lame.so	6e1f94648bd7d0a1

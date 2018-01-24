@@ -1,0 +1,24 @@
+# ninja log v5
+4	69	0	CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/mpglib_interface.c.o	60eba7611273d0b5
+2	139	0	CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/fft.c.o	3c6b8895300b8d03
+2	141	0	CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/gain_analysis.c.o	95eedf21264110e0
+2	168	0	CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/encoder.c.o	9c09fce98c77df0
+6	190	0	CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/presets.c.o	2e51eb85d816e20c
+5	220	0	CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/newmdct.c.o	cef55338ae17e45a
+169	274	0	CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/reservoir.c.o	54fbed42fdae5aa9
+220	333	0	CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/tables.c.o	a162cfab0696715a
+2	341	0	CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/bitstream.c.o	5039f3410086798b
+142	397	0	CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/quantize_pvt.c.o	d131202fd841e83
+333	480	0	CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/util.c.o	327b3ae86a758eb7
+274	499	0	CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/takehiro.c.o	de6b7ed6f8c3a112
+2	503	0	CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/id3tag.c.o	510e63a55662504c
+1	531	0	CMakeFiles/mp3lame.dir/src/main/cpp/native-lib.cpp.o	d04dfb618afdc440
+481	566	0	CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/version.c.o	7b9049128648701a
+3	570	0	CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/lame.c.o	aee7a2e7c3e686a0
+140	573	0	CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/quantize.c.o	d3ed2069692fb350
+397	584	0	CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/VbrTag.c.o	5821979e0172168c
+499	592	0	CMakeFiles/mp3lame.dir/src/main/cpp/wrapper.c.o	832595e8a9fc55bb
+69	594	0	CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/psymodel.c.o	1f8a00bbf05cde27
+341	617	0	CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/vbrquantize.c.o	66d0bc039dedfa3
+190	623	0	CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/set_get.c.o	62f22e9609deb47
+623	758	0	../../../../build/intermediates/cmake/debug/obj/x86_64/libmp3lame.so	7fa05c0d9835b8b9
