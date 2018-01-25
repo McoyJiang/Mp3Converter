@@ -196,9 +196,10 @@ extern "C" DLL_PUBLIC void Java_com_example_danny_1jiang_mp3converter_utils_Soun
 }
 
 
-extern "C" DLL_PUBLIC void Java_com_example_danny_1jiang_mp3converter_utils_SoundTouchUtils_setTempo(JNIEnv *env, jobject thiz, jlong handle, jfloat tempo)
+extern "C" DLL_PUBLIC void Java_com_example_danny_1jiang_mp3converter_utils_SoundTouchUtils_setTempo(
+        JNIEnv *env, jobject thiz, jlong handle, jfloat tempo)
 {
-    LOGD("setTempo");
+    LOGD("setTempo handle is %d : tempo is %d", handle, tempo);
 	SoundTouch *ptr = (SoundTouch*)handle;
 	ptr->setTempo(tempo);
 }

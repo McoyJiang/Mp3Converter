@@ -35,3 +35,5 @@
 730	946	0	CMakeFiles/mp3lame.dir/src/main/cpp/soundtouch/source/SoundTouch/TDStretch.cpp.o	e09478d6d4186ac6
 753	1060	0	CMakeFiles/mp3lame.dir/src/main/cpp/soundtouch/source/SoundStretch/WavFile.cpp.o	23d288551f0868ae
 1060	1346	0	../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libmp3lame.so	2d7e7da03af9ef1f
+1	370	0	CMakeFiles/mp3lame.dir/src/main/cpp/soundtouch-jni.cpp.o	f926630d0566127e
+370	895	0	../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libmp3lame.so	2d7e7da03af9ef1f

@@ -48,6 +48,12 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void setTempo(View view) {
+        SoundTouchUtils soundTouchUtils = new SoundTouchUtils();
+
+        soundTouchUtils.setTempo(10);
+    }
+
+    public void getVersionString(View view) {
         String versionString = SoundTouchUtils.getVersionString();
 
         TextView textView = (TextView) findViewById(R.id.sample_text);

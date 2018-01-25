@@ -28,6 +28,13 @@
         android:layout_height="wrap_content" />
 
     <Button
+        android:id="@+id/getVersionString"
+        android:text="getVersionString"
+        android:onClick="getVersionString"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
         android:id="@+id/setTempo"
         android:text="setTempo"
         android:onClick="setTempo"
