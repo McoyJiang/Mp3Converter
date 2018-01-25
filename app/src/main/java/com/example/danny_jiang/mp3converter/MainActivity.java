@@ -5,8 +5,10 @@ import android.os.Environment;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 
 import com.example.danny_jiang.mp3converter.utils.Mp3Recorder;
+import com.example.danny_jiang.mp3converter.utils.SoundTouchUtils;
 
 import java.io.File;
 import java.io.IOException;
@@ -43,5 +45,13 @@ public class MainActivity extends AppCompatActivity {
     protected void onDestroy() {
         super.onDestroy();
         mRecorder.stop();
+    }
+
+    public void setTempo(View view) {
+        String versionString = SoundTouchUtils.getVersionString();
+
+        TextView textView = (TextView) findViewById(R.id.sample_text);
+
+        textView.setText(versionString);
     }
 }

@@ -38,10 +38,28 @@ add_library( # Sets the name of the library.
              src/main/cpp/libmp3lame/vbrquantize.c
              src/main/cpp/libmp3lame/VbrTag.c
              src/main/cpp/libmp3lame/version.c
-             src/main/cpp/wrapper.c)
+             src/main/cpp/wrapper.c
+
+             src/main/cpp/soundtouch-jni.cpp
+             src/main/cpp/soundtouch/source/SoundTouch/SoundTouch.cpp
+             src/main/cpp/soundtouch/source/SoundTouch/RateTransposer.cpp
+             src/main/cpp/soundtouch/source/SoundTouch/FIFOSampleBuffer.cpp
+             src/main/cpp/soundtouch/source/SoundTouch/AAFilter.cpp
+             src/main/cpp/soundtouch/source/SoundTouch/FIRFilter.cpp
+             src/main/cpp/soundtouch/source/SoundTouch/cpu_detect_x86.cpp
+             src/main/cpp/soundtouch/source/SoundTouch/BPMDetect.cpp
+             src/main/cpp/soundtouch/source/SoundTouch/mmx_optimized.cpp
+             src/main/cpp/soundtouch/source/SoundTouch/PeakFinder.cpp
+             src/main/cpp/soundtouch/source/SoundTouch/sse_optimized.cpp
+             src/main/cpp/soundtouch/source/SoundTouch/TDStretch.cpp
+             src/main/cpp/soundtouch/source/SoundStretch/WavFile.cpp)
 
 # Specifies a path to native header files.
-# include_directories(src/main/cpp/libmp3lame/)
+include_directories(
+            src/main/cpp/libmp3lame/
+            src/main/cpp/soundtouch/include/
+            src/main/cpp/soundtouch/source/SoundTouch/
+            src/main/cpp/soundtouch/source/SoundStretch)
 
 # Searches for a specified prebuilt library and stores the path as a
 # variable. Because CMake includes system libraries in the search path by

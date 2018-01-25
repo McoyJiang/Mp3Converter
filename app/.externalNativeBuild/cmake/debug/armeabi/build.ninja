@@ -55,7 +55,7 @@ build CMakeFiles/mp3lame.dir/src/main/cpp/native-lib.cpp.o: CXX_COMPILER__mp3lam
   DEFINES = -Dmp3lame_EXPORTS
   DEP_FILE = CMakeFiles/mp3lame.dir/src/main/cpp/native-lib.cpp.o.d
   FLAGS = -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=15 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
-  INCLUDES = -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
+  INCLUDES = -I../../../../src/main/cpp/libmp3lame -I../../../../src/main/cpp/soundtouch/include -I../../../../src/main/cpp/soundtouch/source/SoundTouch -I../../../../src/main/cpp/soundtouch/source/SoundStretch -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
   IN_ABS = /Users/ext.danny.jiang/Downloads/work_dir/Mp3Converter/app/src/main/cpp/native-lib.cpp
   OBJECT_DIR = CMakeFiles/mp3lame.dir
   OBJECT_FILE_DIR = CMakeFiles/mp3lame.dir/src/main/cpp
@@ -63,6 +63,7 @@ build CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/bitstream.c.o: C_COMPILER__
   DEFINES = -Dmp3lame_EXPORTS
   DEP_FILE = CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/bitstream.c.o.d
   FLAGS = -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=15 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC
+  INCLUDES = -I../../../../src/main/cpp/libmp3lame -I../../../../src/main/cpp/soundtouch/include -I../../../../src/main/cpp/soundtouch/source/SoundTouch -I../../../../src/main/cpp/soundtouch/source/SoundStretch
   IN_ABS = /Users/ext.danny.jiang/Downloads/work_dir/Mp3Converter/app/src/main/cpp/libmp3lame/bitstream.c
   OBJECT_DIR = CMakeFiles/mp3lame.dir
   OBJECT_FILE_DIR = CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame
@@ -70,6 +71,7 @@ build CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/encoder.c.o: C_COMPILER__mp
   DEFINES = -Dmp3lame_EXPORTS
   DEP_FILE = CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/encoder.c.o.d
   FLAGS = -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=15 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC
+  INCLUDES = -I../../../../src/main/cpp/libmp3lame -I../../../../src/main/cpp/soundtouch/include -I../../../../src/main/cpp/soundtouch/source/SoundTouch -I../../../../src/main/cpp/soundtouch/source/SoundStretch
   IN_ABS = /Users/ext.danny.jiang/Downloads/work_dir/Mp3Converter/app/src/main/cpp/libmp3lame/encoder.c
   OBJECT_DIR = CMakeFiles/mp3lame.dir
   OBJECT_FILE_DIR = CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame
@@ -77,6 +79,7 @@ build CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/fft.c.o: C_COMPILER__mp3lam
   DEFINES = -Dmp3lame_EXPORTS
   DEP_FILE = CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/fft.c.o.d
   FLAGS = -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=15 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC
+  INCLUDES = -I../../../../src/main/cpp/libmp3lame -I../../../../src/main/cpp/soundtouch/include -I../../../../src/main/cpp/soundtouch/source/SoundTouch -I../../../../src/main/cpp/soundtouch/source/SoundStretch
   IN_ABS = /Users/ext.danny.jiang/Downloads/work_dir/Mp3Converter/app/src/main/cpp/libmp3lame/fft.c
   OBJECT_DIR = CMakeFiles/mp3lame.dir
   OBJECT_FILE_DIR = CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame
@@ -84,6 +87,7 @@ build CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/gain_analysis.c.o: C_COMPIL
   DEFINES = -Dmp3lame_EXPORTS
   DEP_FILE = CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/gain_analysis.c.o.d
   FLAGS = -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=15 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC
+  INCLUDES = -I../../../../src/main/cpp/libmp3lame -I../../../../src/main/cpp/soundtouch/include -I../../../../src/main/cpp/soundtouch/source/SoundTouch -I../../../../src/main/cpp/soundtouch/source/SoundStretch
   IN_ABS = /Users/ext.danny.jiang/Downloads/work_dir/Mp3Converter/app/src/main/cpp/libmp3lame/gain_analysis.c
   OBJECT_DIR = CMakeFiles/mp3lame.dir
   OBJECT_FILE_DIR = CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame
@@ -91,6 +95,7 @@ build CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/id3tag.c.o: C_COMPILER__mp3
   DEFINES = -Dmp3lame_EXPORTS
   DEP_FILE = CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/id3tag.c.o.d
   FLAGS = -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=15 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC
+  INCLUDES = -I../../../../src/main/cpp/libmp3lame -I../../../../src/main/cpp/soundtouch/include -I../../../../src/main/cpp/soundtouch/source/SoundTouch -I../../../../src/main/cpp/soundtouch/source/SoundStretch
   IN_ABS = /Users/ext.danny.jiang/Downloads/work_dir/Mp3Converter/app/src/main/cpp/libmp3lame/id3tag.c
   OBJECT_DIR = CMakeFiles/mp3lame.dir
   OBJECT_FILE_DIR = CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame
@@ -98,6 +103,7 @@ build CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/lame.c.o: C_COMPILER__mp3la
   DEFINES = -Dmp3lame_EXPORTS
   DEP_FILE = CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/lame.c.o.d
   FLAGS = -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=15 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC
+  INCLUDES = -I../../../../src/main/cpp/libmp3lame -I../../../../src/main/cpp/soundtouch/include -I../../../../src/main/cpp/soundtouch/source/SoundTouch -I../../../../src/main/cpp/soundtouch/source/SoundStretch
   IN_ABS = /Users/ext.danny.jiang/Downloads/work_dir/Mp3Converter/app/src/main/cpp/libmp3lame/lame.c
   OBJECT_DIR = CMakeFiles/mp3lame.dir
   OBJECT_FILE_DIR = CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame
@@ -105,6 +111,7 @@ build CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/mpglib_interface.c.o: C_COM
   DEFINES = -Dmp3lame_EXPORTS
   DEP_FILE = CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/mpglib_interface.c.o.d
   FLAGS = -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=15 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC
+  INCLUDES = -I../../../../src/main/cpp/libmp3lame -I../../../../src/main/cpp/soundtouch/include -I../../../../src/main/cpp/soundtouch/source/SoundTouch -I../../../../src/main/cpp/soundtouch/source/SoundStretch
   IN_ABS = /Users/ext.danny.jiang/Downloads/work_dir/Mp3Converter/app/src/main/cpp/libmp3lame/mpglib_interface.c
   OBJECT_DIR = CMakeFiles/mp3lame.dir
   OBJECT_FILE_DIR = CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame
@@ -112,6 +119,7 @@ build CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/newmdct.c.o: C_COMPILER__mp
   DEFINES = -Dmp3lame_EXPORTS
   DEP_FILE = CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/newmdct.c.o.d
   FLAGS = -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=15 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC
+  INCLUDES = -I../../../../src/main/cpp/libmp3lame -I../../../../src/main/cpp/soundtouch/include -I../../../../src/main/cpp/soundtouch/source/SoundTouch -I../../../../src/main/cpp/soundtouch/source/SoundStretch
   IN_ABS = /Users/ext.danny.jiang/Downloads/work_dir/Mp3Converter/app/src/main/cpp/libmp3lame/newmdct.c
   OBJECT_DIR = CMakeFiles/mp3lame.dir
   OBJECT_FILE_DIR = CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame
@@ -119,6 +127,7 @@ build CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/presets.c.o: C_COMPILER__mp
   DEFINES = -Dmp3lame_EXPORTS
   DEP_FILE = CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/presets.c.o.d
   FLAGS = -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=15 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC
+  INCLUDES = -I../../../../src/main/cpp/libmp3lame -I../../../../src/main/cpp/soundtouch/include -I../../../../src/main/cpp/soundtouch/source/SoundTouch -I../../../../src/main/cpp/soundtouch/source/SoundStretch
   IN_ABS = /Users/ext.danny.jiang/Downloads/work_dir/Mp3Converter/app/src/main/cpp/libmp3lame/presets.c
   OBJECT_DIR = CMakeFiles/mp3lame.dir
   OBJECT_FILE_DIR = CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame
@@ -126,6 +135,7 @@ build CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/psymodel.c.o: C_COMPILER__m
   DEFINES = -Dmp3lame_EXPORTS
   DEP_FILE = CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/psymodel.c.o.d
   FLAGS = -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=15 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC
+  INCLUDES = -I../../../../src/main/cpp/libmp3lame -I../../../../src/main/cpp/soundtouch/include -I../../../../src/main/cpp/soundtouch/source/SoundTouch -I../../../../src/main/cpp/soundtouch/source/SoundStretch
   IN_ABS = /Users/ext.danny.jiang/Downloads/work_dir/Mp3Converter/app/src/main/cpp/libmp3lame/psymodel.c
   OBJECT_DIR = CMakeFiles/mp3lame.dir
   OBJECT_FILE_DIR = CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame
@@ -133,6 +143,7 @@ build CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/quantize.c.o: C_COMPILER__m
   DEFINES = -Dmp3lame_EXPORTS
   DEP_FILE = CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/quantize.c.o.d
   FLAGS = -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=15 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC
+  INCLUDES = -I../../../../src/main/cpp/libmp3lame -I../../../../src/main/cpp/soundtouch/include -I../../../../src/main/cpp/soundtouch/source/SoundTouch -I../../../../src/main/cpp/soundtouch/source/SoundStretch
   IN_ABS = /Users/ext.danny.jiang/Downloads/work_dir/Mp3Converter/app/src/main/cpp/libmp3lame/quantize.c
   OBJECT_DIR = CMakeFiles/mp3lame.dir
   OBJECT_FILE_DIR = CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame
@@ -140,6 +151,7 @@ build CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/quantize_pvt.c.o: C_COMPILE
   DEFINES = -Dmp3lame_EXPORTS
   DEP_FILE = CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/quantize_pvt.c.o.d
   FLAGS = -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=15 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC
+  INCLUDES = -I../../../../src/main/cpp/libmp3lame -I../../../../src/main/cpp/soundtouch/include -I../../../../src/main/cpp/soundtouch/source/SoundTouch -I../../../../src/main/cpp/soundtouch/source/SoundStretch
   IN_ABS = /Users/ext.danny.jiang/Downloads/work_dir/Mp3Converter/app/src/main/cpp/libmp3lame/quantize_pvt.c
   OBJECT_DIR = CMakeFiles/mp3lame.dir
   OBJECT_FILE_DIR = CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame
@@ -147,6 +159,7 @@ build CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/reservoir.c.o: C_COMPILER__
   DEFINES = -Dmp3lame_EXPORTS
   DEP_FILE = CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/reservoir.c.o.d
   FLAGS = -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=15 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC
+  INCLUDES = -I../../../../src/main/cpp/libmp3lame -I../../../../src/main/cpp/soundtouch/include -I../../../../src/main/cpp/soundtouch/source/SoundTouch -I../../../../src/main/cpp/soundtouch/source/SoundStretch
   IN_ABS = /Users/ext.danny.jiang/Downloads/work_dir/Mp3Converter/app/src/main/cpp/libmp3lame/reservoir.c
   OBJECT_DIR = CMakeFiles/mp3lame.dir
   OBJECT_FILE_DIR = CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame
@@ -154,6 +167,7 @@ build CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/set_get.c.o: C_COMPILER__mp
   DEFINES = -Dmp3lame_EXPORTS
   DEP_FILE = CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/set_get.c.o.d
   FLAGS = -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=15 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC
+  INCLUDES = -I../../../../src/main/cpp/libmp3lame -I../../../../src/main/cpp/soundtouch/include -I../../../../src/main/cpp/soundtouch/source/SoundTouch -I../../../../src/main/cpp/soundtouch/source/SoundStretch
   IN_ABS = /Users/ext.danny.jiang/Downloads/work_dir/Mp3Converter/app/src/main/cpp/libmp3lame/set_get.c
   OBJECT_DIR = CMakeFiles/mp3lame.dir
   OBJECT_FILE_DIR = CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame
@@ -161,6 +175,7 @@ build CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/tables.c.o: C_COMPILER__mp3
   DEFINES = -Dmp3lame_EXPORTS
   DEP_FILE = CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/tables.c.o.d
   FLAGS = -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=15 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC
+  INCLUDES = -I../../../../src/main/cpp/libmp3lame -I../../../../src/main/cpp/soundtouch/include -I../../../../src/main/cpp/soundtouch/source/SoundTouch -I../../../../src/main/cpp/soundtouch/source/SoundStretch
   IN_ABS = /Users/ext.danny.jiang/Downloads/work_dir/Mp3Converter/app/src/main/cpp/libmp3lame/tables.c
   OBJECT_DIR = CMakeFiles/mp3lame.dir
   OBJECT_FILE_DIR = CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame
@@ -168,6 +183,7 @@ build CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/takehiro.c.o: C_COMPILER__m
   DEFINES = -Dmp3lame_EXPORTS
   DEP_FILE = CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/takehiro.c.o.d
   FLAGS = -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=15 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC
+  INCLUDES = -I../../../../src/main/cpp/libmp3lame -I../../../../src/main/cpp/soundtouch/include -I../../../../src/main/cpp/soundtouch/source/SoundTouch -I../../../../src/main/cpp/soundtouch/source/SoundStretch
   IN_ABS = /Users/ext.danny.jiang/Downloads/work_dir/Mp3Converter/app/src/main/cpp/libmp3lame/takehiro.c
   OBJECT_DIR = CMakeFiles/mp3lame.dir
   OBJECT_FILE_DIR = CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame
@@ -175,6 +191,7 @@ build CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/util.c.o: C_COMPILER__mp3la
   DEFINES = -Dmp3lame_EXPORTS
   DEP_FILE = CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/util.c.o.d
   FLAGS = -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=15 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC
+  INCLUDES = -I../../../../src/main/cpp/libmp3lame -I../../../../src/main/cpp/soundtouch/include -I../../../../src/main/cpp/soundtouch/source/SoundTouch -I../../../../src/main/cpp/soundtouch/source/SoundStretch
   IN_ABS = /Users/ext.danny.jiang/Downloads/work_dir/Mp3Converter/app/src/main/cpp/libmp3lame/util.c
   OBJECT_DIR = CMakeFiles/mp3lame.dir
   OBJECT_FILE_DIR = CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame
@@ -182,6 +199,7 @@ build CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/vbrquantize.c.o: C_COMPILER
   DEFINES = -Dmp3lame_EXPORTS
   DEP_FILE = CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/vbrquantize.c.o.d
   FLAGS = -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=15 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC
+  INCLUDES = -I../../../../src/main/cpp/libmp3lame -I../../../../src/main/cpp/soundtouch/include -I../../../../src/main/cpp/soundtouch/source/SoundTouch -I../../../../src/main/cpp/soundtouch/source/SoundStretch
   IN_ABS = /Users/ext.danny.jiang/Downloads/work_dir/Mp3Converter/app/src/main/cpp/libmp3lame/vbrquantize.c
   OBJECT_DIR = CMakeFiles/mp3lame.dir
   OBJECT_FILE_DIR = CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame
@@ -189,6 +207,7 @@ build CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/VbrTag.c.o: C_COMPILER__mp3
   DEFINES = -Dmp3lame_EXPORTS
   DEP_FILE = CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/VbrTag.c.o.d
   FLAGS = -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=15 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC
+  INCLUDES = -I../../../../src/main/cpp/libmp3lame -I../../../../src/main/cpp/soundtouch/include -I../../../../src/main/cpp/soundtouch/source/SoundTouch -I../../../../src/main/cpp/soundtouch/source/SoundStretch
   IN_ABS = /Users/ext.danny.jiang/Downloads/work_dir/Mp3Converter/app/src/main/cpp/libmp3lame/VbrTag.c
   OBJECT_DIR = CMakeFiles/mp3lame.dir
   OBJECT_FILE_DIR = CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame
@@ -196,6 +215,7 @@ build CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/version.c.o: C_COMPILER__mp
   DEFINES = -Dmp3lame_EXPORTS
   DEP_FILE = CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/version.c.o.d
   FLAGS = -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=15 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC
+  INCLUDES = -I../../../../src/main/cpp/libmp3lame -I../../../../src/main/cpp/soundtouch/include -I../../../../src/main/cpp/soundtouch/source/SoundTouch -I../../../../src/main/cpp/soundtouch/source/SoundStretch
   IN_ABS = /Users/ext.danny.jiang/Downloads/work_dir/Mp3Converter/app/src/main/cpp/libmp3lame/version.c
   OBJECT_DIR = CMakeFiles/mp3lame.dir
   OBJECT_FILE_DIR = CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame
@@ -203,9 +223,114 @@ build CMakeFiles/mp3lame.dir/src/main/cpp/wrapper.c.o: C_COMPILER__mp3lame ../..
   DEFINES = -Dmp3lame_EXPORTS
   DEP_FILE = CMakeFiles/mp3lame.dir/src/main/cpp/wrapper.c.o.d
   FLAGS = -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=15 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC
+  INCLUDES = -I../../../../src/main/cpp/libmp3lame -I../../../../src/main/cpp/soundtouch/include -I../../../../src/main/cpp/soundtouch/source/SoundTouch -I../../../../src/main/cpp/soundtouch/source/SoundStretch
   IN_ABS = /Users/ext.danny.jiang/Downloads/work_dir/Mp3Converter/app/src/main/cpp/wrapper.c
   OBJECT_DIR = CMakeFiles/mp3lame.dir
   OBJECT_FILE_DIR = CMakeFiles/mp3lame.dir/src/main/cpp
+build CMakeFiles/mp3lame.dir/src/main/cpp/soundtouch-jni.cpp.o: CXX_COMPILER__mp3lame ../../../../src/main/cpp/soundtouch-jni.cpp
+  DEFINES = -Dmp3lame_EXPORTS
+  DEP_FILE = CMakeFiles/mp3lame.dir/src/main/cpp/soundtouch-jni.cpp.o.d
+  FLAGS = -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=15 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  INCLUDES = -I../../../../src/main/cpp/libmp3lame -I../../../../src/main/cpp/soundtouch/include -I../../../../src/main/cpp/soundtouch/source/SoundTouch -I../../../../src/main/cpp/soundtouch/source/SoundStretch -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
+  IN_ABS = /Users/ext.danny.jiang/Downloads/work_dir/Mp3Converter/app/src/main/cpp/soundtouch-jni.cpp
+  OBJECT_DIR = CMakeFiles/mp3lame.dir
+  OBJECT_FILE_DIR = CMakeFiles/mp3lame.dir/src/main/cpp
+build CMakeFiles/mp3lame.dir/src/main/cpp/soundtouch/source/SoundTouch/SoundTouch.cpp.o: CXX_COMPILER__mp3lame ../../../../src/main/cpp/soundtouch/source/SoundTouch/SoundTouch.cpp
+  DEFINES = -Dmp3lame_EXPORTS
+  DEP_FILE = CMakeFiles/mp3lame.dir/src/main/cpp/soundtouch/source/SoundTouch/SoundTouch.cpp.o.d
+  FLAGS = -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=15 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  INCLUDES = -I../../../../src/main/cpp/libmp3lame -I../../../../src/main/cpp/soundtouch/include -I../../../../src/main/cpp/soundtouch/source/SoundTouch -I../../../../src/main/cpp/soundtouch/source/SoundStretch -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
+  IN_ABS = /Users/ext.danny.jiang/Downloads/work_dir/Mp3Converter/app/src/main/cpp/soundtouch/source/SoundTouch/SoundTouch.cpp
+  OBJECT_DIR = CMakeFiles/mp3lame.dir
+  OBJECT_FILE_DIR = CMakeFiles/mp3lame.dir/src/main/cpp/soundtouch/source/SoundTouch
+build CMakeFiles/mp3lame.dir/src/main/cpp/soundtouch/source/SoundTouch/RateTransposer.cpp.o: CXX_COMPILER__mp3lame ../../../../src/main/cpp/soundtouch/source/SoundTouch/RateTransposer.cpp
+  DEFINES = -Dmp3lame_EXPORTS
+  DEP_FILE = CMakeFiles/mp3lame.dir/src/main/cpp/soundtouch/source/SoundTouch/RateTransposer.cpp.o.d
+  FLAGS = -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=15 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  INCLUDES = -I../../../../src/main/cpp/libmp3lame -I../../../../src/main/cpp/soundtouch/include -I../../../../src/main/cpp/soundtouch/source/SoundTouch -I../../../../src/main/cpp/soundtouch/source/SoundStretch -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
+  IN_ABS = /Users/ext.danny.jiang/Downloads/work_dir/Mp3Converter/app/src/main/cpp/soundtouch/source/SoundTouch/RateTransposer.cpp
+  OBJECT_DIR = CMakeFiles/mp3lame.dir
+  OBJECT_FILE_DIR = CMakeFiles/mp3lame.dir/src/main/cpp/soundtouch/source/SoundTouch
+build CMakeFiles/mp3lame.dir/src/main/cpp/soundtouch/source/SoundTouch/FIFOSampleBuffer.cpp.o: CXX_COMPILER__mp3lame ../../../../src/main/cpp/soundtouch/source/SoundTouch/FIFOSampleBuffer.cpp
+  DEFINES = -Dmp3lame_EXPORTS
+  DEP_FILE = CMakeFiles/mp3lame.dir/src/main/cpp/soundtouch/source/SoundTouch/FIFOSampleBuffer.cpp.o.d
+  FLAGS = -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=15 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  INCLUDES = -I../../../../src/main/cpp/libmp3lame -I../../../../src/main/cpp/soundtouch/include -I../../../../src/main/cpp/soundtouch/source/SoundTouch -I../../../../src/main/cpp/soundtouch/source/SoundStretch -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
+  IN_ABS = /Users/ext.danny.jiang/Downloads/work_dir/Mp3Converter/app/src/main/cpp/soundtouch/source/SoundTouch/FIFOSampleBuffer.cpp
+  OBJECT_DIR = CMakeFiles/mp3lame.dir
+  OBJECT_FILE_DIR = CMakeFiles/mp3lame.dir/src/main/cpp/soundtouch/source/SoundTouch
+build CMakeFiles/mp3lame.dir/src/main/cpp/soundtouch/source/SoundTouch/AAFilter.cpp.o: CXX_COMPILER__mp3lame ../../../../src/main/cpp/soundtouch/source/SoundTouch/AAFilter.cpp
+  DEFINES = -Dmp3lame_EXPORTS
+  DEP_FILE = CMakeFiles/mp3lame.dir/src/main/cpp/soundtouch/source/SoundTouch/AAFilter.cpp.o.d
+  FLAGS = -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=15 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  INCLUDES = -I../../../../src/main/cpp/libmp3lame -I../../../../src/main/cpp/soundtouch/include -I../../../../src/main/cpp/soundtouch/source/SoundTouch -I../../../../src/main/cpp/soundtouch/source/SoundStretch -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
+  IN_ABS = /Users/ext.danny.jiang/Downloads/work_dir/Mp3Converter/app/src/main/cpp/soundtouch/source/SoundTouch/AAFilter.cpp
+  OBJECT_DIR = CMakeFiles/mp3lame.dir
+  OBJECT_FILE_DIR = CMakeFiles/mp3lame.dir/src/main/cpp/soundtouch/source/SoundTouch
+build CMakeFiles/mp3lame.dir/src/main/cpp/soundtouch/source/SoundTouch/FIRFilter.cpp.o: CXX_COMPILER__mp3lame ../../../../src/main/cpp/soundtouch/source/SoundTouch/FIRFilter.cpp
+  DEFINES = -Dmp3lame_EXPORTS
+  DEP_FILE = CMakeFiles/mp3lame.dir/src/main/cpp/soundtouch/source/SoundTouch/FIRFilter.cpp.o.d
+  FLAGS = -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=15 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  INCLUDES = -I../../../../src/main/cpp/libmp3lame -I../../../../src/main/cpp/soundtouch/include -I../../../../src/main/cpp/soundtouch/source/SoundTouch -I../../../../src/main/cpp/soundtouch/source/SoundStretch -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
+  IN_ABS = /Users/ext.danny.jiang/Downloads/work_dir/Mp3Converter/app/src/main/cpp/soundtouch/source/SoundTouch/FIRFilter.cpp
+  OBJECT_DIR = CMakeFiles/mp3lame.dir
+  OBJECT_FILE_DIR = CMakeFiles/mp3lame.dir/src/main/cpp/soundtouch/source/SoundTouch
+build CMakeFiles/mp3lame.dir/src/main/cpp/soundtouch/source/SoundTouch/cpu_detect_x86.cpp.o: CXX_COMPILER__mp3lame ../../../../src/main/cpp/soundtouch/source/SoundTouch/cpu_detect_x86.cpp
+  DEFINES = -Dmp3lame_EXPORTS
+  DEP_FILE = CMakeFiles/mp3lame.dir/src/main/cpp/soundtouch/source/SoundTouch/cpu_detect_x86.cpp.o.d
+  FLAGS = -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=15 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  INCLUDES = -I../../../../src/main/cpp/libmp3lame -I../../../../src/main/cpp/soundtouch/include -I../../../../src/main/cpp/soundtouch/source/SoundTouch -I../../../../src/main/cpp/soundtouch/source/SoundStretch -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
+  IN_ABS = /Users/ext.danny.jiang/Downloads/work_dir/Mp3Converter/app/src/main/cpp/soundtouch/source/SoundTouch/cpu_detect_x86.cpp
+  OBJECT_DIR = CMakeFiles/mp3lame.dir
+  OBJECT_FILE_DIR = CMakeFiles/mp3lame.dir/src/main/cpp/soundtouch/source/SoundTouch
+build CMakeFiles/mp3lame.dir/src/main/cpp/soundtouch/source/SoundTouch/BPMDetect.cpp.o: CXX_COMPILER__mp3lame ../../../../src/main/cpp/soundtouch/source/SoundTouch/BPMDetect.cpp
+  DEFINES = -Dmp3lame_EXPORTS
+  DEP_FILE = CMakeFiles/mp3lame.dir/src/main/cpp/soundtouch/source/SoundTouch/BPMDetect.cpp.o.d
+  FLAGS = -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=15 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  INCLUDES = -I../../../../src/main/cpp/libmp3lame -I../../../../src/main/cpp/soundtouch/include -I../../../../src/main/cpp/soundtouch/source/SoundTouch -I../../../../src/main/cpp/soundtouch/source/SoundStretch -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
+  IN_ABS = /Users/ext.danny.jiang/Downloads/work_dir/Mp3Converter/app/src/main/cpp/soundtouch/source/SoundTouch/BPMDetect.cpp
+  OBJECT_DIR = CMakeFiles/mp3lame.dir
+  OBJECT_FILE_DIR = CMakeFiles/mp3lame.dir/src/main/cpp/soundtouch/source/SoundTouch
+build CMakeFiles/mp3lame.dir/src/main/cpp/soundtouch/source/SoundTouch/mmx_optimized.cpp.o: CXX_COMPILER__mp3lame ../../../../src/main/cpp/soundtouch/source/SoundTouch/mmx_optimized.cpp
+  DEFINES = -Dmp3lame_EXPORTS
+  DEP_FILE = CMakeFiles/mp3lame.dir/src/main/cpp/soundtouch/source/SoundTouch/mmx_optimized.cpp.o.d
+  FLAGS = -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=15 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  INCLUDES = -I../../../../src/main/cpp/libmp3lame -I../../../../src/main/cpp/soundtouch/include -I../../../../src/main/cpp/soundtouch/source/SoundTouch -I../../../../src/main/cpp/soundtouch/source/SoundStretch -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
+  IN_ABS = /Users/ext.danny.jiang/Downloads/work_dir/Mp3Converter/app/src/main/cpp/soundtouch/source/SoundTouch/mmx_optimized.cpp
+  OBJECT_DIR = CMakeFiles/mp3lame.dir
+  OBJECT_FILE_DIR = CMakeFiles/mp3lame.dir/src/main/cpp/soundtouch/source/SoundTouch
+build CMakeFiles/mp3lame.dir/src/main/cpp/soundtouch/source/SoundTouch/PeakFinder.cpp.o: CXX_COMPILER__mp3lame ../../../../src/main/cpp/soundtouch/source/SoundTouch/PeakFinder.cpp
+  DEFINES = -Dmp3lame_EXPORTS
+  DEP_FILE = CMakeFiles/mp3lame.dir/src/main/cpp/soundtouch/source/SoundTouch/PeakFinder.cpp.o.d
+  FLAGS = -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=15 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  INCLUDES = -I../../../../src/main/cpp/libmp3lame -I../../../../src/main/cpp/soundtouch/include -I../../../../src/main/cpp/soundtouch/source/SoundTouch -I../../../../src/main/cpp/soundtouch/source/SoundStretch -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
+  IN_ABS = /Users/ext.danny.jiang/Downloads/work_dir/Mp3Converter/app/src/main/cpp/soundtouch/source/SoundTouch/PeakFinder.cpp
+  OBJECT_DIR = CMakeFiles/mp3lame.dir
+  OBJECT_FILE_DIR = CMakeFiles/mp3lame.dir/src/main/cpp/soundtouch/source/SoundTouch
+build CMakeFiles/mp3lame.dir/src/main/cpp/soundtouch/source/SoundTouch/sse_optimized.cpp.o: CXX_COMPILER__mp3lame ../../../../src/main/cpp/soundtouch/source/SoundTouch/sse_optimized.cpp
+  DEFINES = -Dmp3lame_EXPORTS
+  DEP_FILE = CMakeFiles/mp3lame.dir/src/main/cpp/soundtouch/source/SoundTouch/sse_optimized.cpp.o.d
+  FLAGS = -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=15 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  INCLUDES = -I../../../../src/main/cpp/libmp3lame -I../../../../src/main/cpp/soundtouch/include -I../../../../src/main/cpp/soundtouch/source/SoundTouch -I../../../../src/main/cpp/soundtouch/source/SoundStretch -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
+  IN_ABS = /Users/ext.danny.jiang/Downloads/work_dir/Mp3Converter/app/src/main/cpp/soundtouch/source/SoundTouch/sse_optimized.cpp
+  OBJECT_DIR = CMakeFiles/mp3lame.dir
+  OBJECT_FILE_DIR = CMakeFiles/mp3lame.dir/src/main/cpp/soundtouch/source/SoundTouch
+build CMakeFiles/mp3lame.dir/src/main/cpp/soundtouch/source/SoundTouch/TDStretch.cpp.o: CXX_COMPILER__mp3lame ../../../../src/main/cpp/soundtouch/source/SoundTouch/TDStretch.cpp
+  DEFINES = -Dmp3lame_EXPORTS
+  DEP_FILE = CMakeFiles/mp3lame.dir/src/main/cpp/soundtouch/source/SoundTouch/TDStretch.cpp.o.d
+  FLAGS = -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=15 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  INCLUDES = -I../../../../src/main/cpp/libmp3lame -I../../../../src/main/cpp/soundtouch/include -I../../../../src/main/cpp/soundtouch/source/SoundTouch -I../../../../src/main/cpp/soundtouch/source/SoundStretch -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
+  IN_ABS = /Users/ext.danny.jiang/Downloads/work_dir/Mp3Converter/app/src/main/cpp/soundtouch/source/SoundTouch/TDStretch.cpp
+  OBJECT_DIR = CMakeFiles/mp3lame.dir
+  OBJECT_FILE_DIR = CMakeFiles/mp3lame.dir/src/main/cpp/soundtouch/source/SoundTouch
+build CMakeFiles/mp3lame.dir/src/main/cpp/soundtouch/source/SoundStretch/WavFile.cpp.o: CXX_COMPILER__mp3lame ../../../../src/main/cpp/soundtouch/source/SoundStretch/WavFile.cpp
+  DEFINES = -Dmp3lame_EXPORTS
+  DEP_FILE = CMakeFiles/mp3lame.dir/src/main/cpp/soundtouch/source/SoundStretch/WavFile.cpp.o.d
+  FLAGS = -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=15 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  INCLUDES = -I../../../../src/main/cpp/libmp3lame -I../../../../src/main/cpp/soundtouch/include -I../../../../src/main/cpp/soundtouch/source/SoundTouch -I../../../../src/main/cpp/soundtouch/source/SoundStretch -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
+  IN_ABS = /Users/ext.danny.jiang/Downloads/work_dir/Mp3Converter/app/src/main/cpp/soundtouch/source/SoundStretch/WavFile.cpp
+  OBJECT_DIR = CMakeFiles/mp3lame.dir
+  OBJECT_FILE_DIR = CMakeFiles/mp3lame.dir/src/main/cpp/soundtouch/source/SoundStretch
 
 # =============================================================================
 # Link build statements for SHARED_LIBRARY target mp3lame
@@ -214,7 +339,7 @@ build CMakeFiles/mp3lame.dir/src/main/cpp/wrapper.c.o: C_COMPILER__mp3lame ../..
 #############################################
 # Link the shared library ../../../../build/intermediates/cmake/debug/obj/armeabi/libmp3lame.so
 
-build ../../../../build/intermediates/cmake/debug/obj/armeabi/libmp3lame.so: CXX_SHARED_LIBRARY_LINKER__mp3lame CMakeFiles/mp3lame.dir/src/main/cpp/native-lib.cpp.o CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/bitstream.c.o CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/encoder.c.o CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/fft.c.o CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/gain_analysis.c.o CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/id3tag.c.o CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/lame.c.o CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/mpglib_interface.c.o CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/newmdct.c.o CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/presets.c.o CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/psymodel.c.o CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/quantize.c.o CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/quantize_pvt.c.o CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/reservoir.c.o CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/set_get.c.o CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/tables.c.o CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/takehiro.c.o CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/util.c.o CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/vbrquantize.c.o CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/VbrTag.c.o CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/version.c.o CMakeFiles/mp3lame.dir/src/main/cpp/wrapper.c.o | /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/platforms/android-15/arch-arm/usr/lib/liblog.so
+build ../../../../build/intermediates/cmake/debug/obj/armeabi/libmp3lame.so: CXX_SHARED_LIBRARY_LINKER__mp3lame CMakeFiles/mp3lame.dir/src/main/cpp/native-lib.cpp.o CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/bitstream.c.o CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/encoder.c.o CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/fft.c.o CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/gain_analysis.c.o CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/id3tag.c.o CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/lame.c.o CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/mpglib_interface.c.o CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/newmdct.c.o CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/presets.c.o CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/psymodel.c.o CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/quantize.c.o CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/quantize_pvt.c.o CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/reservoir.c.o CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/set_get.c.o CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/tables.c.o CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/takehiro.c.o CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/util.c.o CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/vbrquantize.c.o CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/VbrTag.c.o CMakeFiles/mp3lame.dir/src/main/cpp/libmp3lame/version.c.o CMakeFiles/mp3lame.dir/src/main/cpp/wrapper.c.o CMakeFiles/mp3lame.dir/src/main/cpp/soundtouch-jni.cpp.o CMakeFiles/mp3lame.dir/src/main/cpp/soundtouch/source/SoundTouch/SoundTouch.cpp.o CMakeFiles/mp3lame.dir/src/main/cpp/soundtouch/source/SoundTouch/RateTransposer.cpp.o CMakeFiles/mp3lame.dir/src/main/cpp/soundtouch/source/SoundTouch/FIFOSampleBuffer.cpp.o CMakeFiles/mp3lame.dir/src/main/cpp/soundtouch/source/SoundTouch/AAFilter.cpp.o CMakeFiles/mp3lame.dir/src/main/cpp/soundtouch/source/SoundTouch/FIRFilter.cpp.o CMakeFiles/mp3lame.dir/src/main/cpp/soundtouch/source/SoundTouch/cpu_detect_x86.cpp.o CMakeFiles/mp3lame.dir/src/main/cpp/soundtouch/source/SoundTouch/BPMDetect.cpp.o CMakeFiles/mp3lame.dir/src/main/cpp/soundtouch/source/SoundTouch/mmx_optimized.cpp.o CMakeFiles/mp3lame.dir/src/main/cpp/soundtouch/source/SoundTouch/PeakFinder.cpp.o CMakeFiles/mp3lame.dir/src/main/cpp/soundtouch/source/SoundTouch/sse_optimized.cpp.o CMakeFiles/mp3lame.dir/src/main/cpp/soundtouch/source/SoundTouch/TDStretch.cpp.o CMakeFiles/mp3lame.dir/src/main/cpp/soundtouch/source/SoundStretch/WavFile.cpp.o | /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/platforms/android-15/arch-arm/usr/lib/liblog.so
   LANGUAGE_COMPILE_FLAGS = -isystem /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=15 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info
   LINK_FLAGS = -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a --sysroot /Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/platforms/android-15/arch-arm -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--no-undefined -Wl,-z,noexecstack -Qunused-arguments -Wl,-z,relro -Wl,-z,now
   LINK_LIBRARIES = -llog -latomic -lm "/Users/ext.danny.jiang/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/libgnustl_static.a"
