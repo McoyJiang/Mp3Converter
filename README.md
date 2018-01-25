@@ -9,7 +9,7 @@ On Samsung's official website, there is a [lamemp3 post](http://developer.samsun
 
 ### Details
 Java Layer:
-there is a <font color='#FF0000' size='5'>LameUtils.java</font> which you can use to call functions implemented in C++ layer.
+there is a `LameUtils.java`  which you can use to call functions implemented in C++ layer.
 <br>
 there are two main methods in this class
 <br>
