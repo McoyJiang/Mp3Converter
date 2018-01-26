@@ -20,9 +20,9 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/arm64-v8a/.ninja_deps" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/arm64-v8a/.ninja_deps" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/arm64-v8a/CMakeFiles/mp3lame.dir/src/main/cpp/soundtouch-jni.cpp.o" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/arm64-v8a/CMakeFiles/mp3lame.dir/src/main/cpp/soundtouch-jni.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/arm64-v8a/.ninja_log" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/cmake/debug/arm64-v8a/.ninja_log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/cpp/soundtouch-jni.cpp" afterPath="$PROJECT_DIR$/app/src/main/cpp/soundtouch-jni.cpp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/danny_jiang/mp3converter/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/danny_jiang/mp3converter/MainActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
     </list>
@@ -48,11 +48,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="soundtouch-jni.cpp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="soundtouch-jni.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/cpp/soundtouch-jni.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="201" column="63" lean-forward="true" selection-start-line="201" selection-start-column="63" selection-end-line="201" selection-end-column="63" />
+            <state relative-caret-position="336">
+              <caret line="203" column="14" lean-forward="false" selection-start-line="203" selection-start-column="14" selection-end-line="203" selection-end-column="14" />
               <folding>
                 <element signature="e#520#536#0" expanded="true" />
                 <element signature="e#624#647#0" expanded="true" />
@@ -72,13 +72,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/danny_jiang/mp3converter/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="52" column="28" lean-forward="false" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
+            <state relative-caret-position="131">
+              <caret line="68" column="28" lean-forward="true" selection-start-line="68" selection-start-column="28" selection-end-line="68" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#3114#3115#0" expanded="true" />
+                <element signature="e#3139#3140#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -90,8 +92,8 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="431">
-              <caret line="32" column="40" lean-forward="false" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="40" />
+            <state relative-caret-position="585">
+              <caret line="46" column="30" lean-forward="false" selection-start-line="46" selection-start-column="30" selection-end-line="46" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -106,6 +108,26 @@
                 <element signature="e#989#990#0" expanded="true" />
                 <element signature="e#1028#1029#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WavFile.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/cpp/soundtouch/source/SoundStretch/WavFile.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-528">
+              <caret line="224" column="61" lean-forward="false" selection-start-line="224" selection-start-column="22" selection-end-line="224" selection-end-column="61" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SoundTouch.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/cpp/soundtouch/source/SoundTouch/SoundTouch.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="244">
+              <caret line="233" column="42" lean-forward="false" selection-start-line="233" selection-start-column="17" selection-end-line="233" selection-end-column="42" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -150,6 +172,8 @@
       <find>Java_net_surina_soundtouch_SoundTouch</find>
       <find>detectCPUextensions</find>
       <find>LOGV</find>
+      <find>Input file is corrupt or not a WAV file</find>
+      <find>processFile</find>
     </findStrings>
     <replaceStrings>
       <replace>Log</replace>
@@ -1932,9 +1956,9 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/danny_jiang/mp3converter/utils/SoundTouchUtils.java" />
         <option value="$PROJECT_DIR$/app/src/main/cpp/soundtouch/source/SoundTouch/cpu_detect.h" />
         <option value="$PROJECT_DIR$/app/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/app/src/main/cpp/soundtouch-jni.cpp" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/danny_jiang/mp3converter/MainActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/cpp/soundtouch-jni.cpp" />
       </list>
     </option>
   </component>
@@ -2343,7 +2367,7 @@
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="device.picker.selection" value="9889943133365a3257" />
-    <property name="SearchEverywhereHistoryKey" value="wr&#9;FILE&#9;file:///Users/ext.danny.jiang/Downloads/work_dir/Mp3Converter/app/src/main/cpp/wrapper.c&#10;Main&#9;FILE&#9;file:///Users/ext.danny.jiang/Downloads/work_dir/Mp3Converter/app/src/main/java/com/example/danny_jiang/mp3converter/MainActivity.java&#10;FIFOSampleBuffer&#9;FILE&#9;file:///Users/ext.danny.jiang/Downloads/work_dir/Mp3Converter/app/src/main/cpp/soundtouch/source/SoundTouch/FIFOSampleBuffer.cpp&#10;CM&#9;FILE&#9;file:///Users/ext.danny.jiang/Downloads/work_dir/Mp3Converter/app/CMakeLists.txt&#10;SoundTouch&#9;null&#9;null&#10;wra&#9;FILE&#9;file:///Users/ext.danny.jiang/Downloads/work_dir/Mp3Converter/app/src/main/cpp/wrapper.c&#10;Lame&#9;FILE&#9;file:///Users/ext.danny.jiang/Downloads/work_dir/Mp3Converter/app/src/main/java/com/example/danny_jiang/mp3converter/utils/LameUtils.java&#10;C&#9;FILE&#9;file:///Users/ext.danny.jiang/Downloads/work_dir/Mp3Converter/app/CMakeLists.txt&#10;RE&#9;FILE&#9;file:///Users/ext.danny.jiang/Downloads/work_dir/Mp3Converter/README.md&#10;Rea&#9;FILE&#9;file:///Users/ext.danny.jiang/Downloads/work_dir/Mp3Converter/README.md" />
+    <property name="SearchEverywhereHistoryKey" value="W&#9;FILE&#9;file:///Users/ext.danny.jiang/Downloads/work_dir/Mp3Converter/app/src/main/cpp/soundtouch/source/SoundStretch/WavFile.cpp&#10;wr&#9;FILE&#9;file:///Users/ext.danny.jiang/Downloads/work_dir/Mp3Converter/app/src/main/cpp/wrapper.c&#10;Main&#9;FILE&#9;file:///Users/ext.danny.jiang/Downloads/work_dir/Mp3Converter/app/src/main/java/com/example/danny_jiang/mp3converter/MainActivity.java&#10;FIFOSampleBuffer&#9;FILE&#9;file:///Users/ext.danny.jiang/Downloads/work_dir/Mp3Converter/app/src/main/cpp/soundtouch/source/SoundTouch/FIFOSampleBuffer.cpp&#10;CM&#9;FILE&#9;file:///Users/ext.danny.jiang/Downloads/work_dir/Mp3Converter/app/CMakeLists.txt&#10;SoundTouch&#9;null&#9;null&#10;wra&#9;FILE&#9;file:///Users/ext.danny.jiang/Downloads/work_dir/Mp3Converter/app/src/main/cpp/wrapper.c&#10;Lame&#9;FILE&#9;file:///Users/ext.danny.jiang/Downloads/work_dir/Mp3Converter/app/src/main/java/com/example/danny_jiang/mp3converter/utils/LameUtils.java&#10;C&#9;FILE&#9;file:///Users/ext.danny.jiang/Downloads/work_dir/Mp3Converter/app/CMakeLists.txt&#10;RE&#9;FILE&#9;file:///Users/ext.danny.jiang/Downloads/work_dir/Mp3Converter/README.md&#10;Rea&#9;FILE&#9;file:///Users/ext.danny.jiang/Downloads/work_dir/Mp3Converter/README.md" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -2798,14 +2822,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/danny_jiang/mp3converter/utils/DataEncodeThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
-          <caret line="118" column="48" lean-forward="false" selection-start-line="118" selection-start-column="48" selection-end-line="118" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/cpp/soundtouch.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1903">
@@ -2828,6 +2844,8 @@
           <caret line="15" column="37" lean-forward="false" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#3114#3115#0" expanded="true" />
+            <element signature="e#3139#3140#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2883,6 +2901,8 @@
           <caret line="15" column="37" lean-forward="false" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#3114#3115#0" expanded="true" />
+            <element signature="e#3139#3140#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2938,6 +2958,8 @@
           <caret line="15" column="37" lean-forward="false" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#3114#3115#0" expanded="true" />
+            <element signature="e#3139#3140#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -3055,6 +3077,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="226">
           <caret line="30" column="65" lean-forward="false" selection-start-line="30" selection-start-column="63" selection-end-line="30" selection-end-column="65" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -3202,25 +3225,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/cpp/soundtouch/source/SoundTouch/SoundTouch.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="99" column="0" lean-forward="false" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="32" column="40" lean-forward="false" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/danny_jiang/mp3converter/utils/SoundTouchUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -3240,24 +3244,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/danny_jiang/mp3converter/MainActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="52" column="28" lean-forward="false" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="585">
+          <caret line="46" column="30" lean-forward="false" selection-start-line="46" selection-start-column="30" selection-end-line="46" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/cpp/soundtouch/source/SoundStretch/WavFile.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-528">
+          <caret line="224" column="61" lean-forward="false" selection-start-line="224" selection-start-column="22" selection-end-line="224" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/cpp/soundtouch/source/SoundTouch/SoundTouch.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="233" column="42" lean-forward="false" selection-start-line="233" selection-start-column="17" selection-end-line="233" selection-end-column="42" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/cpp/soundtouch-jni.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="201" column="63" lean-forward="true" selection-start-line="201" selection-start-column="63" selection-end-line="201" selection-end-column="63" />
+        <state relative-caret-position="336">
+          <caret line="203" column="14" lean-forward="false" selection-start-line="203" selection-start-column="14" selection-end-line="203" selection-end-column="14" />
           <folding>
             <element signature="e#520#536#0" expanded="true" />
             <element signature="e#624#647#0" expanded="true" />
             <element signature="e#1259#2715#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/danny_jiang/mp3converter/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="68" column="28" lean-forward="true" selection-start-line="68" selection-start-column="28" selection-end-line="68" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3114#3115#0" expanded="true" />
+            <element signature="e#3139#3140#0" expanded="true" />
           </folding>
         </state>
       </provider>
