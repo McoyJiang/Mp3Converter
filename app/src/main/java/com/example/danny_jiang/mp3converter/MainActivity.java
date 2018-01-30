@@ -12,6 +12,7 @@ import android.widget.Toast;
 
 import com.example.danny_jiang.mp3converter.utils.Mp3Recorder;
 import com.example.danny_jiang.mp3converter.utils.SoundTouchUtils;
+import com.example.danny_jiang.mp3converter.utils.WavRecorder;
 
 import java.io.File;
 import java.io.IOException;
@@ -94,6 +95,20 @@ public class MainActivity extends AppCompatActivity {
 
     public void process(View view) {
         process();
+    }
+
+    private WavRecorder wavRecorder;
+    public void startWavRecord(View view) {
+        wavRecorder = new WavRecorder();
+
+        wavRecorder.setOutputFile(Environment.getExternalStorageDirectory().getAbsolutePath() + "/" + "temp_wav.wav");
+        wavRecorder.prepare();
+
+        wavRecorder.start();
+    }
+
+    public void stopWavRecord(View view) {
+        wavRecorder.stop();
     }
 
     /// Helper class that will execute the SoundTouch processing. As the processing may take

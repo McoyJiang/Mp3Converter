@@ -48,4 +48,18 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
+    <Button
+        android:id="@+id/startWavRecord"
+        android:text="startWavRecord"
+        android:onClick="startWavRecord"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/stopWavRecord"
+        android:text="stopWavRecord"
+        android:onClick="stopWavRecord"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
 </LinearLayout>
