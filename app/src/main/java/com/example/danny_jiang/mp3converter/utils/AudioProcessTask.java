@@ -12,10 +12,10 @@ public class AudioProcessTask extends AsyncTask<AudioProcessTask.Parameters, Int
     /// Helper class to store the SoundTouch file processing parameters
     public final class Parameters
     {
-        String inFileName;
-        String outFileName;
-        float tempo;
-        float pitch;
+        public String inFileName;
+        public String outFileName;
+        public float tempo;
+        public float pitch;
     }
 
 
