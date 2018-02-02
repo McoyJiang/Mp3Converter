@@ -18,8 +18,11 @@ this is a library which contains a lot of audio processing function, like:
 
 # Widget
 ### LameUtils.java
+LameUtils is an utils class, which you can use to call C++ native code, before use a specific method, you need to load the .so
+library into memory: `System.loadLibrary("mp3lame");` . The main function within this class is to transfer the original PCM stream into a .mp3 file
 
 ### SoundTouchUtils.java
+SoundTouchUtils is another utils class, which you can use to adjust tempo、pitch、rate of an locally existed audio file
 
 ### Mp3Recorder.java
 Mp3Recorder is a encapsulated Android AudioRecorder. you can just call start() method to start an
