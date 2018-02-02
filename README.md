@@ -16,20 +16,15 @@ this is a library which contains a lot of audio processing function, like:
 ### **_SoundTouch_**
 [SoundTouch](https://www.surina.net/soundtouch/) is an open-source audio processing library for changing the Tempo, Pitch and Playback Rates of audio streams or audio files. The library additionally supports estimating stable beats-per-minute rates for audio tracks.
 
-## Mp3 Encoder
-Mp3Converter uses 
-<br>
+# Widget
+### LameUtils.java
 
-On Samsung's official website, there is a [lamemp3 post](http://developer.samsung.com/technical-doc/view.do?v=T000000090) describes how to integrate it and use it
+### SoundTouchUtils.java
 
-### Widget
-
-
-## Recorder: Mp3Recorder.java
+### Mp3Recorder.java
 Mp3Recorder is a encapsulated Android AudioRecorder. you can just call start() method to start an
 audio recording, and call stop() method to stop it.
-
-#### Use
+<br>
 1. declare and initialize a instance of Mp3Recorder
 ```
 Mp3Recorder mRecorder = new Mp3Recorder(new File(Environment.getExternalStorageDirectory(),"test.mp3"));
@@ -45,4 +40,20 @@ try {
     e.printStackTrace();
 }
 ```
+### WavRecorder.java
+WavRecorder is another type of recording compared with Mp3Recorder.java。 The output file should be .wav format.
 
+```
+// initialize WavRecorder
+WavRecorder wavRecorder = new WavRecorder();
+
+// set output path, need to be the absolute path, like storage/sdcard0/Downloads/XXX.wav
+wavRecorder.setOutputFile(Environment.getExternalStorageDirectory().getAbsolutePath() + "/" + "temp_wav.wav");
+
+// prepare audio
+wavRecorder.prepare();
+
+// start recording
+wavRecorder.start();
+```
+<b><i>in the duration of recording, you need to call stop() method to stop recording</i></b>
