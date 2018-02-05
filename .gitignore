@@ -1,3 +1,4 @@
-excludesfile = .gitignore
+.gitignore
 *.bin
-build/android-profile/profile-2018-01-25-18-42-46-306.json
+build/
+.gradle/
